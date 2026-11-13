@@ -2,7 +2,7 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-13T08:43:56Z"
+    "last_updated": "2026-11-13T12:45:21Z"
   },
   "games": [
     {
@@ -70,15 +70,15 @@
           "alt_odds_over": -165
         },
         {
-          "player": "NE@DET Total (U 49.5) (NE @ DET)",
+          "player": "NE@DET Total (U 50.5) (NE @ DET)",
           "market_type": "total",
           "model_win_prob": 0.68,
           "projected_mean_mu": 42.6,
           "projected_variance_sigma2": 0,
-          "base_line": 49.5,
-          "base_odds_over": -105,
-          "base_odds_under": -115,
-          "alt_line": 54.0,
+          "base_line": 50.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 55.0,
           "alt_odds_over": -165
         }
       ]
@@ -208,7 +208,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": -7.5,
-          "base_odds_over": -115,
+          "base_odds_over": 100,
           "base_odds_under": -110,
           "alt_line": -10.0,
           "alt_odds_over": -165
@@ -220,7 +220,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": 7.5,
-          "base_odds_over": -105,
+          "base_odds_over": -120,
           "base_odds_under": -110,
           "alt_line": 5.0,
           "alt_odds_over": -165
@@ -280,27 +280,27 @@
       },
       "props_board": [
         {
-          "player": "CAR Spread (+2.5) (CAR @ NO)",
+          "player": "CAR Spread (+1.5) (CAR @ NO)",
           "market_type": "spread",
           "model_win_prob": 0.4995,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": 2.5,
-          "base_odds_over": -115,
+          "base_line": 1.5,
+          "base_odds_over": 100,
           "base_odds_under": -110,
-          "alt_line": 0.0,
+          "alt_line": -1.0,
           "alt_odds_over": -165
         },
         {
-          "player": "NO Spread (-2.5) (NO vs CAR)",
+          "player": "NO Spread (-1.5) (NO vs CAR)",
           "market_type": "spread",
           "model_win_prob": 0.5006,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": -2.5,
-          "base_odds_over": -105,
+          "base_line": -1.5,
+          "base_odds_over": -120,
           "base_odds_under": -110,
-          "alt_line": -5.0,
+          "alt_line": -4.0,
           "alt_odds_over": -165
         },
         {
@@ -538,15 +538,15 @@
           "alt_odds_over": -165
         },
         {
-          "player": "MIA@IND Total (O 37.5) (MIA @ IND)",
+          "player": "MIA@IND Total (O 38.5) (MIA @ IND)",
           "market_type": "total",
           "model_win_prob": 0.68,
           "projected_mean_mu": 42.5,
           "projected_variance_sigma2": 0,
-          "base_line": 37.5,
-          "base_odds_over": -115,
-          "base_odds_under": -105,
-          "alt_line": 33.0,
+          "base_line": 38.5,
+          "base_odds_over": -105,
+          "base_odds_under": -115,
+          "alt_line": 34.0,
           "alt_odds_over": -165
         }
       ]
