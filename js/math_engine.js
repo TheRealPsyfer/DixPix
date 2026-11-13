@@ -1,7 +1,20 @@
 /**
  * DIXPIX QUANTITATIVE ENGINE — CORE MATH MODULES
- * Modules 1-3: Efficiency, EV & Staking, Key Number Spreads
+ * Modules 1-12: Efficiency, EV & Staking, Key Number Spreads, Biophysical & Fibonacci Synthesis
  */
+
+const GOLDEN_RATIO_PHI = 1.6180339887;
+const PI_OVER_PHI_HFA = 1.9416110252;
+const GOLDEN_PLAY_SCALER = 38.5145;
+const LOGISTIC_K_TIGHT = GOLDEN_RATIO_PHI / (4.0 * Math.PI); // ~0.12875903
+
+const FIBONACCI_TIERS = {
+    TIER_1: 34,
+    TIER_2: 21,
+    TIER_3: 13,
+    TIER_4: 8,
+    SUM_F: 76
+};
 
 // ==========================================
 // MODULE 1: IMPLIED BREAK-EVEN & VIG-FREE PROBABILITY
@@ -301,41 +314,36 @@ function calcCircadianStrain(circPayload, kickoffLocalHour) {
 }
 
 // ==========================================
-// MODULE 9: FULL-GAME FAIR MARGIN EQUATION
+// MODULE 9: FULL-GAME FAIR MARGIN & LOGISTIC POINT-GAP PROBABILITY
 // ==========================================
 function calcFullGameFairMargin(gameData, phiCirc, psiCoupled11_12 = 0, mode = "tip") {
-    const nPlays = gameData.expected_plays || 126;
-    const hfaBase = gameData.hfa_base !== undefined ? gameData.hfa_base : 2.1;
+    const hfaBase = gameData.hfa_base !== undefined ? gameData.hfa_base : PI_OVER_PHI_HFA;
 
-    const home = gameData.team_telemetry.home;
-    const away = gameData.team_telemetry.away;
+    const home = (gameData.team_telemetry && gameData.team_telemetry.home) || {};
+    const away = (gameData.team_telemetry && gameData.team_telemetry.away) || {};
 
     const epaDiff = (away.net_epa_per_play || 0) - (home.net_epa_per_play || 0);
     const deltaQB = (away.qb_replacement_delta || 0) - (home.qb_replacement_delta || 0);
     const deltaTOReg = (away.turnover_reg_delta || 0) - (home.turnover_reg_delta || 0);
 
     const activePsi = (mode === "tip") ? 0 : psiCoupled11_12;
-    const teamPlays = nPlays / 2;
+    const effectivePlays = GOLDEN_PLAY_SCALER;
 
     const fairMarginHomeSpread = (
-        (teamPlays * epaDiff) + deltaQB + deltaTOReg - hfaBase - phiCirc + activePsi
+        (effectivePlays * epaDiff) + deltaQB + deltaTOReg - hfaBase - phiCirc + activePsi
     );
 
     return {
         fairHomeSpread: Number(fairMarginHomeSpread.toFixed(2)),
-        epaContribution: Number((teamPlays * epaDiff).toFixed(2)),
+        epaContribution: Number((effectivePlays * epaDiff).toFixed(2)),
         activeCoupledOverlay: Number(activePsi.toFixed(3))
     };
 }
 
-const GOLDEN_RATIO_PHI = 1.6180339887;
-const FIBONACCI_TIERS = {
-    TIER_1: 34,
-    TIER_2: 21,
-    TIER_3: 13,
-    TIER_4: 8,
-    SUM_F: 76
-};
+function calcPointGapWinProb(pointGap) {
+    const prob = 1.0 / (1.0 + Math.exp(-LOGISTIC_K_TIGHT * pointGap));
+    return Math.max(0.01, Math.min(0.99, prob));
+}
 
 // ==========================================
 // MODULE 10: 30% PROFIT BOOST COMPOUND PARLAY EV
