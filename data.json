@@ -2,351 +2,9 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-12T22:40:52Z"
+    "last_updated": "2026-11-13T04:34:37Z"
   },
   "games": [
-    {
-      "game_id": "WAS_NYG_2026",
-      "league": "NFL",
-      "home_team": "NYG",
-      "away_team": "WAS",
-      "commence_time": "2026-11-13T01:15:00Z",
-      "kickoff_local_hour": 20,
-      "expected_plays": 126,
-      "environmental_payload": {
-        "temperature_f": 49.1,
-        "wind_mph": 12.6,
-        "pressure_hpa": 998.5,
-        "is_dome": false,
-        "elevation_m": 2
-      },
-      "circadian_payload": {
-        "away_travel_miles": 198.0,
-        "away_tz_shift": 0,
-        "rest_differential_days": 0,
-        "short_week_flag": 0
-      },
-      "team_telemetry": {
-        "home": {
-          "net_epa_per_play": -0.088,
-          "qb_replacement_delta": -1.5,
-          "turnover_reg_delta": 0.3,
-          "closing_rank_pct": 0.28,
-          "active_win_streak": 0,
-          "opp_rz_dvoa": 0.09
-        },
-        "away": {
-          "net_epa_per_play": 0.11,
-          "qb_replacement_delta": 0.0,
-          "turnover_reg_delta": -0.3,
-          "closing_rank_pct": 0.805,
-          "active_win_streak": 3,
-          "opp_rz_dvoa": -0.13
-        }
-      },
-      "props_board": [
-        {
-          "player": "NYG Spread (-1.5) (NYG vs WAS)",
-          "market_type": "spread",
-          "model_win_prob": 0.498,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": -1.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
-          "alt_line": -4.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "WAS Spread (+1.5) (WAS @ NYG)",
-          "market_type": "spread",
-          "model_win_prob": 0.502,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": 1.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
-          "alt_line": -1.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "WAS@NYG Total (O 40.5) (WAS @ NYG)",
-          "market_type": "total",
-          "model_win_prob": 0.68,
-          "projected_mean_mu": 42.5,
-          "projected_variance_sigma2": 0,
-          "base_line": 40.5,
-          "base_odds_over": -115,
-          "base_odds_under": -105,
-          "alt_line": 36.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "Jayden Daniels Pass Yds (O 202.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 202.5,
-          "projected_variance_sigma2": 7233.5,
-          "base_line": 202.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 192.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "J.J. McCarthy Pass Yds (O 201.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 201.5,
-          "projected_variance_sigma2": 7162.2,
-          "base_line": 201.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 191.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Darnell Mooney Rec Yds (O 12.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 12.5,
-          "projected_variance_sigma2": 27.6,
-          "base_line": 12.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 2.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Treylon Burks Rec Yds (O 26.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 26.5,
-          "projected_variance_sigma2": 123.9,
-          "base_line": 26.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 16.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Van Jefferson Rec Yds (O 7.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 7.5,
-          "projected_variance_sigma2": 9.9,
-          "base_line": 7.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": -3.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Chig Okonkwo Rec Yds (O 35.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 35.5,
-          "projected_variance_sigma2": 222.3,
-          "base_line": 35.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 25.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Stefon Diggs Rec Yds (O 36.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 36.5,
-          "projected_variance_sigma2": 235.0,
-          "base_line": 36.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 26.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Antonio Williams Rec Yds (O 37.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 37.5,
-          "projected_variance_sigma2": 248.1,
-          "base_line": 37.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 27.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Theo Johnson Rec Yds (O 5.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 5.5,
-          "projected_variance_sigma2": 5.3,
-          "base_line": 5.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": -5.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Malik Nabers Rec Yds (O 66.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 66.5,
-          "projected_variance_sigma2": 780.1,
-          "base_line": 66.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 56.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Rachaad White Rec Yds (O 12.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 12.5,
-          "projected_variance_sigma2": 27.6,
-          "base_line": 12.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 2.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Malachi Fields Rec Yds (O 25.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 25.5,
-          "projected_variance_sigma2": 114.7,
-          "base_line": 25.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 15.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Devin Singletary Rec Yds (O 9.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 9.5,
-          "projected_variance_sigma2": 15.9,
-          "base_line": 9.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": -1.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Cam Skattebo Rec Yds (O 7.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 7.5,
-          "projected_variance_sigma2": 9.9,
-          "base_line": 7.5,
-          "base_odds_over": -120,
-          "base_odds_under": -106,
-          "alt_line": -3.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Austin Ekeler Rec Yds (O 10.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 10.5,
-          "projected_variance_sigma2": 19.4,
-          "base_line": 10.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 0.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Isaiah Likely Rec Yds (O 46.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 46.5,
-          "projected_variance_sigma2": 381.4,
-          "base_line": 46.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 36.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Jayden Daniels Rush Yds (O 38.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 38.5,
-          "projected_variance_sigma2": 261.5,
-          "base_line": 38.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 28.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Rachaad White Rush Yds (O 38.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 38.5,
-          "projected_variance_sigma2": 261.5,
-          "base_line": 38.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 28.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Cam Skattebo Rush Yds (O 63.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 63.5,
-          "projected_variance_sigma2": 711.3,
-          "base_line": 63.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 53.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Devin Singletary Rush Yds (O 23.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 23.5,
-          "projected_variance_sigma2": 97.4,
-          "base_line": 23.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 13.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "J.J. McCarthy Rush Yds (O 15.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 15.5,
-          "projected_variance_sigma2": 42.4,
-          "base_line": 15.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 5.0,
-          "alt_odds_over": -185
-        },
-        {
-          "player": "Austin Ekeler Rush Yds (O 29.5)",
-          "market_type": "continuous_yards",
-          "model_win_prob": 0.545,
-          "projected_mean_mu": 29.5,
-          "projected_variance_sigma2": 153.5,
-          "base_line": 29.5,
-          "base_odds_over": -113,
-          "base_odds_under": -113,
-          "alt_line": 19.0,
-          "alt_odds_over": -185
-        }
-      ]
-    },
     {
       "game_id": "NE_DET_2026",
       "league": "NFL",
@@ -358,7 +16,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 986.0,
+        "pressure_hpa": 987.2,
         "is_dome": true,
         "elevation_m": 183
       },
@@ -412,15 +70,15 @@
           "alt_odds_over": -165
         },
         {
-          "player": "NE@DET Total (U 50.5) (NE @ DET)",
+          "player": "NE@DET Total (U 49.5) (NE @ DET)",
           "market_type": "total",
           "model_win_prob": 0.68,
           "projected_mean_mu": 42.6,
           "projected_variance_sigma2": 0,
-          "base_line": 50.5,
+          "base_line": 49.5,
           "base_odds_over": -105,
           "base_odds_under": -115,
-          "alt_line": 55.0,
+          "alt_line": 54.0,
           "alt_odds_over": -165
         }
       ]
@@ -436,7 +94,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 971.9,
+        "pressure_hpa": 973.5,
         "is_dome": true,
         "elevation_m": 305
       },
@@ -512,9 +170,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 49.1,
-        "wind_mph": 12.6,
-        "pressure_hpa": 998.5,
+        "temperature_f": 46.7,
+        "wind_mph": 10.1,
+        "pressure_hpa": 998.7,
         "is_dome": false,
         "elevation_m": 2
       },
@@ -592,7 +250,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1009.0,
+        "pressure_hpa": 1011.6,
         "is_dome": true,
         "elevation_m": 2
       },
@@ -668,9 +326,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 45.4,
-        "wind_mph": 16.7,
-        "pressure_hpa": 984.8,
+        "temperature_f": 43.8,
+        "wind_mph": 18.7,
+        "pressure_hpa": 986.4,
         "is_dome": false,
         "elevation_m": 177
       },
@@ -746,9 +404,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 36.8,
-        "wind_mph": 8.3,
-        "pressure_hpa": 994.1,
+        "temperature_f": 32.6,
+        "wind_mph": 10.4,
+        "pressure_hpa": 994.5,
         "is_dome": false,
         "elevation_m": 195
       },
@@ -826,7 +484,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 986.9,
+        "pressure_hpa": 985.8,
         "is_dome": true,
         "elevation_m": 218
       },
@@ -902,9 +560,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 57.2,
-        "wind_mph": 12.2,
-        "pressure_hpa": 996.6,
+        "temperature_f": 44.6,
+        "wind_mph": 8.2,
+        "pressure_hpa": 998.9,
         "is_dome": false,
         "elevation_m": 130
       },
@@ -982,7 +640,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 973.9,
+        "pressure_hpa": 972.6,
         "is_dome": true,
         "elevation_m": 328
       },
@@ -1060,7 +718,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 938.2,
+        "pressure_hpa": 935.6,
         "is_dome": true,
         "elevation_m": 610
       },
@@ -1096,7 +754,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": 6.5,
-          "base_odds_over": -115,
+          "base_odds_over": -110,
           "base_odds_under": -110,
           "alt_line": 4.0,
           "alt_odds_over": -165
@@ -1108,7 +766,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": -6.5,
-          "base_odds_over": -105,
+          "base_odds_over": -110,
           "base_odds_under": -110,
           "alt_line": -9.0,
           "alt_odds_over": -165
@@ -1138,7 +796,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 994.7,
+        "pressure_hpa": 994.4,
         "is_dome": true,
         "elevation_m": 184
       },
@@ -1214,9 +872,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 45.7,
-        "wind_mph": 6.8,
-        "pressure_hpa": 991.2,
+        "temperature_f": 42.1,
+        "wind_mph": 9.7,
+        "pressure_hpa": 991.4,
         "is_dome": false,
         "elevation_m": 148
       },
@@ -1292,9 +950,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 54.6,
-        "wind_mph": 4.7,
-        "pressure_hpa": 996.8,
+        "temperature_f": 46.2,
+        "wind_mph": 9.9,
+        "pressure_hpa": 998.1,
         "is_dome": false,
         "elevation_m": 10
       },
@@ -1372,7 +1030,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1013.0,
+        "pressure_hpa": 1014.7,
         "is_dome": true,
         "elevation_m": 15
       },
@@ -1448,9 +1106,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 45.9,
-        "wind_mph": 10.2,
-        "pressure_hpa": 988.4,
+        "temperature_f": 35.6,
+        "wind_mph": 4.8,
+        "pressure_hpa": 988.1,
         "is_dome": false,
         "elevation_m": 250
       },
@@ -1526,9 +1184,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 59.0,
-        "wind_mph": 13.1,
-        "pressure_hpa": 979.1,
+        "temperature_f": 50.2,
+        "wind_mph": 9.6,
+        "pressure_hpa": 980.6,
         "is_dome": false,
         "elevation_m": 215
       },
@@ -1604,9 +1262,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 40.0,
-        "wind_mph": 8.4,
-        "pressure_hpa": 979.9,
+        "temperature_f": 36.5,
+        "wind_mph": 9.4,
+        "pressure_hpa": 980.5,
         "is_dome": false,
         "elevation_m": 182
       },
@@ -1682,9 +1340,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 39.6,
-        "wind_mph": 11.9,
-        "pressure_hpa": 991.8,
+        "temperature_f": 39.3,
+        "wind_mph": 12.3,
+        "pressure_hpa": 992.4,
         "is_dome": false,
         "elevation_m": 181
       },
@@ -1762,7 +1420,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 994.7,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 184
       },
@@ -1840,7 +1498,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 986.0,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 183
       },
@@ -1916,9 +1574,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 54.7,
-        "wind_mph": 6.0,
-        "pressure_hpa": 996.5,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 12
       },
@@ -1996,7 +1654,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1005.5,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 40
       },
@@ -2072,9 +1730,9 @@
       "kickoff_local_hour": 14,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 66.4,
-        "wind_mph": 6.7,
-        "pressure_hpa": 844.4,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 1609
       },
@@ -2142,84 +1800,6 @@
       ]
     },
     {
-      "game_id": "JAX_NYG_2026",
-      "league": "NFL",
-      "home_team": "NYG",
-      "away_team": "JAX",
-      "commence_time": "2026-11-22T21:25:00Z",
-      "kickoff_local_hour": 16,
-      "expected_plays": 126,
-      "environmental_payload": {
-        "temperature_f": 49.1,
-        "wind_mph": 12.6,
-        "pressure_hpa": 998.5,
-        "is_dome": false,
-        "elevation_m": 2
-      },
-      "circadian_payload": {
-        "away_travel_miles": 839.4,
-        "away_tz_shift": 0,
-        "rest_differential_days": 0,
-        "short_week_flag": 0
-      },
-      "team_telemetry": {
-        "home": {
-          "net_epa_per_play": -0.088,
-          "qb_replacement_delta": -1.5,
-          "turnover_reg_delta": 0.3,
-          "closing_rank_pct": 0.28,
-          "active_win_streak": 0,
-          "opp_rz_dvoa": 0.09
-        },
-        "away": {
-          "net_epa_per_play": -0.045,
-          "qb_replacement_delta": -1.5,
-          "turnover_reg_delta": 0.4,
-          "closing_rank_pct": 0.38,
-          "active_win_streak": 0,
-          "opp_rz_dvoa": 0.08
-        }
-      },
-      "props_board": [
-        {
-          "player": "JAX Spread (-5.5) (JAX @ NYG)",
-          "market_type": "spread",
-          "model_win_prob": 0.5004,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": -5.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
-          "alt_line": -8.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "NYG Spread (+5.5) (NYG vs JAX)",
-          "market_type": "spread",
-          "model_win_prob": 0.4996,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": 5.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
-          "alt_line": 3.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "JAX@NYG Total (U 44.5) (JAX @ NYG)",
-          "market_type": "total",
-          "model_win_prob": 0.68,
-          "projected_mean_mu": 42.4,
-          "projected_variance_sigma2": 0,
-          "base_line": 44.5,
-          "base_odds_over": -105,
-          "base_odds_under": -115,
-          "alt_line": 49.0,
-          "alt_odds_over": -165
-        }
-      ]
-    },
-    {
       "game_id": "MIN_SF_2026",
       "league": "NFL",
       "home_team": "SF",
@@ -2228,9 +1808,9 @@
       "kickoff_local_hour": 17,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 69.6,
-        "wind_mph": 14.1,
-        "pressure_hpa": 1008.4,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 7
       },
@@ -2293,84 +1873,6 @@
           "base_odds_over": -110,
           "base_odds_under": -110,
           "alt_line": 50.0,
-          "alt_odds_over": -165
-        }
-      ]
-    },
-    {
-      "game_id": "CIN_WAS_2026",
-      "league": "NFL",
-      "home_team": "WAS",
-      "away_team": "CIN",
-      "commence_time": "2026-11-24T01:15:00Z",
-      "kickoff_local_hour": 20,
-      "expected_plays": 126,
-      "environmental_payload": {
-        "temperature_f": 57.7,
-        "wind_mph": 9.8,
-        "pressure_hpa": 989.9,
-        "is_dome": false,
-        "elevation_m": 60
-      },
-      "circadian_payload": {
-        "away_travel_miles": 410.9,
-        "away_tz_shift": 0,
-        "rest_differential_days": 0,
-        "short_week_flag": 0
-      },
-      "team_telemetry": {
-        "home": {
-          "net_epa_per_play": 0.11,
-          "qb_replacement_delta": 0.0,
-          "turnover_reg_delta": -0.3,
-          "closing_rank_pct": 0.805,
-          "active_win_streak": 3,
-          "opp_rz_dvoa": -0.13
-        },
-        "away": {
-          "net_epa_per_play": 0.068,
-          "qb_replacement_delta": 0.0,
-          "turnover_reg_delta": -0.1,
-          "closing_rank_pct": 0.64,
-          "active_win_streak": 1,
-          "opp_rz_dvoa": -0.08
-        }
-      },
-      "props_board": [
-        {
-          "player": "CIN Spread (-4.5) (CIN @ WAS)",
-          "market_type": "spread",
-          "model_win_prob": 0.4996,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": -4.5,
-          "base_odds_over": 100,
-          "base_odds_under": -110,
-          "alt_line": -7.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "WAS Spread (+4.5) (WAS vs CIN)",
-          "market_type": "spread",
-          "model_win_prob": 0.5004,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": 4.5,
-          "base_odds_over": -120,
-          "base_odds_under": -110,
-          "alt_line": 2.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "CIN@WAS Total (U 51.5) (CIN @ WAS)",
-          "market_type": "total",
-          "model_win_prob": 0.68,
-          "projected_mean_mu": 42.7,
-          "projected_variance_sigma2": 0,
-          "base_line": 51.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
-          "alt_line": 56.0,
           "alt_odds_over": -165
         }
       ]
