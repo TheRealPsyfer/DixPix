@@ -1,0 +1,37 @@
+name: DixPix Auto-Scraper
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run DixPix Scraper
+        env:
+          GITHUB_ACTIONS: "true"
+        run: python scraper.py
+
+      - name: Commit and Push updated data.json
+        run: |
+          git config user.name "DixPix Quant Bot"
+          git config user.email "bot@dixpix.local"
+          git add data.json
+          git diff --staged --quiet || git commit -m "Auto-update live odds & telemetry"
+          git push
