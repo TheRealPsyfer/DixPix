@@ -424,4 +424,3 @@ if __name__ == "__main__":
         print(f"[Cloud Scraper] Synced {len(payload['games'])} games to {DATA_FILE}")
     else:
         run_daemon()
-    run_daemon()
