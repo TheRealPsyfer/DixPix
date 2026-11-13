@@ -192,6 +192,7 @@ def build_master_payload():
 
     # Identify target game on deck for props pull
     target_event_id = None
+    target_props_data = None
     if target_event_id:
         print(f"[Props Scraper] Fetching primetime props for event: {target_event_id}...")
         target_props_data = fetch_target_game_props(target_event_id, API_KEY)
