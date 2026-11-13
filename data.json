@@ -2,7 +2,7 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-13T04:34:37Z"
+    "last_updated": "2026-11-13T08:43:56Z"
   },
   "games": [
     {
@@ -16,7 +16,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 987.2,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 183
       },
@@ -94,7 +94,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 973.5,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 305
       },
@@ -170,9 +170,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 46.7,
-        "wind_mph": 10.1,
-        "pressure_hpa": 998.7,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 2
       },
@@ -250,7 +250,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1011.6,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 2
       },
@@ -326,9 +326,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 43.8,
-        "wind_mph": 18.7,
-        "pressure_hpa": 986.4,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 177
       },
@@ -404,9 +404,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 32.6,
-        "wind_mph": 10.4,
-        "pressure_hpa": 994.5,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 195
       },
@@ -484,7 +484,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 985.8,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 218
       },
@@ -560,9 +560,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 44.6,
-        "wind_mph": 8.2,
-        "pressure_hpa": 998.9,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 130
       },
@@ -640,7 +640,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 972.6,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 328
       },
@@ -718,7 +718,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 935.6,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 610
       },
@@ -796,7 +796,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 994.4,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 184
       },
@@ -872,9 +872,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 42.1,
-        "wind_mph": 9.7,
-        "pressure_hpa": 991.4,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 148
       },
@@ -950,9 +950,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 46.2,
-        "wind_mph": 9.9,
-        "pressure_hpa": 998.1,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 10
       },
@@ -1030,7 +1030,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1014.7,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 15
       },
@@ -1106,9 +1106,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 35.6,
-        "wind_mph": 4.8,
-        "pressure_hpa": 988.1,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 250
       },
@@ -1184,9 +1184,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 50.2,
-        "wind_mph": 9.6,
-        "pressure_hpa": 980.6,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 215
       },
@@ -1262,9 +1262,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 36.5,
-        "wind_mph": 9.4,
-        "pressure_hpa": 980.5,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 182
       },
@@ -1340,9 +1340,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 39.3,
-        "wind_mph": 12.3,
-        "pressure_hpa": 992.4,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 181
       },
@@ -1800,6 +1800,84 @@
       ]
     },
     {
+      "game_id": "JAX_NYG_2026",
+      "league": "NFL",
+      "home_team": "NYG",
+      "away_team": "JAX",
+      "commence_time": "2026-11-22T21:25:00Z",
+      "kickoff_local_hour": 16,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
+        "is_dome": false,
+        "elevation_m": 2
+      },
+      "circadian_payload": {
+        "away_travel_miles": 839.4,
+        "away_tz_shift": 0,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": -0.088,
+          "qb_replacement_delta": -1.5,
+          "turnover_reg_delta": 0.3,
+          "closing_rank_pct": 0.28,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.09
+        },
+        "away": {
+          "net_epa_per_play": -0.045,
+          "qb_replacement_delta": -1.5,
+          "turnover_reg_delta": 0.4,
+          "closing_rank_pct": 0.38,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.08
+        }
+      },
+      "props_board": [
+        {
+          "player": "JAX Spread (-5.5) (JAX @ NYG)",
+          "market_type": "spread",
+          "model_win_prob": 0.5004,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -5.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": -8.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NYG Spread (+5.5) (NYG vs JAX)",
+          "market_type": "spread",
+          "model_win_prob": 0.4996,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 5.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 3.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "JAX@NYG Total (U 44.5) (JAX @ NYG)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.4,
+          "projected_variance_sigma2": 0,
+          "base_line": 44.5,
+          "base_odds_over": -105,
+          "base_odds_under": -115,
+          "alt_line": 49.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
       "game_id": "MIN_SF_2026",
       "league": "NFL",
       "home_team": "SF",
@@ -1873,6 +1951,84 @@
           "base_odds_over": -110,
           "base_odds_under": -110,
           "alt_line": 50.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "CIN_WAS_2026",
+      "league": "NFL",
+      "home_team": "WAS",
+      "away_team": "CIN",
+      "commence_time": "2026-11-24T01:15:00Z",
+      "kickoff_local_hour": 20,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
+        "is_dome": false,
+        "elevation_m": 60
+      },
+      "circadian_payload": {
+        "away_travel_miles": 410.9,
+        "away_tz_shift": 0,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.11,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.3,
+          "closing_rank_pct": 0.805,
+          "active_win_streak": 3,
+          "opp_rz_dvoa": -0.13
+        },
+        "away": {
+          "net_epa_per_play": 0.068,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.1,
+          "closing_rank_pct": 0.64,
+          "active_win_streak": 1,
+          "opp_rz_dvoa": -0.08
+        }
+      },
+      "props_board": [
+        {
+          "player": "CIN Spread (-4.5) (CIN @ WAS)",
+          "market_type": "spread",
+          "model_win_prob": 0.4996,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -4.5,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": -7.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "WAS Spread (+4.5) (WAS vs CIN)",
+          "market_type": "spread",
+          "model_win_prob": 0.5004,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 4.5,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": 2.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "CIN@WAS Total (U 51.5) (CIN @ WAS)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.7,
+          "projected_variance_sigma2": 0,
+          "base_line": 51.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 56.0,
           "alt_odds_over": -165
         }
       ]
