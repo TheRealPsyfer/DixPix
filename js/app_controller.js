@@ -18,6 +18,7 @@ const AppState = {
 };
 
 const openCardMemory = new Set();
+const MODEL_TOTAL_INTERCEPT = 42.986;
 
 // ==========================================
 // 1. INITIALIZATION & EVENT LISTENERS
@@ -105,6 +106,7 @@ function recalculateAndRenderAll() {
     const defaultLeague = (AppState.rawPayload.slate_info && AppState.rawPayload.slate_info.league) || "NFL";
     const mode = AppState.activeMode;
     const sliderVal = (mode === "davinci") ? AppState.intensitySlider : 0.0;
+    const playScaler = (typeof GOLDEN_PLAY_SCALER !== "undefined") ? GOLDEN_PLAY_SCALER : 38.5145;
 
     AppState.processedGames = [];
     AppState.processedProps = [];
@@ -115,18 +117,23 @@ function recalculateAndRenderAll() {
         if (gameLeague === "NFL" && !AppState.filters.nfl) return;
         if (gameLeague === "NCAA" && !AppState.filters.ncaa) return;
 
-        const m7 = calcBarometricBallistics(game.environmental_payload || {});
-        const m8 = calcCircadianStrain(game.circadian_payload || {}, game.kickoff_local_hour);
+        const envPayload = game.environmental_payload || {};
+        const circPayload = game.circadian_payload || {};
+        const homeTel = (game.team_telemetry && game.team_telemetry.home) || {};
+        const awayTel = (game.team_telemetry && game.team_telemetry.away) || {};
+
+        const m7 = calcBarometricBallistics(envPayload);
+        const m8 = calcCircadianStrain(circPayload, game.kickoff_local_hour);
         const m11 = calcBiophysicalMassLoad(
-            game.environmental_payload || {},
-            (game.team_telemetry && game.team_telemetry.home) || {},
+            envPayload,
+            homeTel,
             95.0,
             0.62,
             mode,
             sliderVal
         );
         const m12 = calcTurnoverEPAMatrix(
-            game.team_telemetry || { home: {}, away: {} },
+            { home: homeTel, away: awayTel },
             gameLeague,
             mode,
             sliderVal
@@ -136,7 +143,17 @@ function recalculateAndRenderAll() {
             ? 0
             : calcCoupledInteractionPsi(m11.phiBioScore, m12.netTurnoverEPA, sliderVal);
 
+        // Baseline ("tip") vs Mode-Active Module 9 Fair Margin
+        const m9Base = calcFullGameFairMargin(game, m8.phiCircadianPenalty, 0, "tip");
         const m9 = calcFullGameFairMargin(game, m8.phiCircadianPenalty, psi11_12, mode);
+
+        // Full-Telemetry Game Total Calculation (42.986 Intercept + 38.5145 Play Scaler + Modifiers)
+        const epaTotalPts = ((homeTel.net_epa_per_play || 0) + (awayTel.net_epa_per_play || 0)) * playScaler;
+        const qbTotalPts = (homeTel.qb_replacement_delta || 0) + (awayTel.qb_replacement_delta || 0);
+        const rzTotalPts = ((homeTel.opp_rz_dvoa || 0) + (awayTel.opp_rz_dvoa || 0)) * 10.0;
+        const windMph = envPayload.is_dome ? 0 : (envPayload.wind_mph || 0);
+        const windPenalty = Math.max(0, (windMph - 10.0) * 0.25);
+        const baseTelemetryTotal = Number((MODEL_TOTAL_INTERCEPT + epaTotalPts + qbTotalPts + rzTotalPts - windPenalty).toFixed(1));
 
         const gameRecord = {
             gameId: game.game_id,
@@ -144,15 +161,16 @@ function recalculateAndRenderAll() {
             matchup: `${game.away_team} @ ${game.home_team}`,
             homeTeam: game.home_team,
             awayTeam: game.away_team,
-            elevationM: (game.environmental_payload && game.environmental_payload.elevation_m) || 0,
-            tempK: (game.environmental_payload && game.environmental_payload.temp_kelvin) || 288.15,
-            windMph: (game.environmental_payload && game.environmental_payload.wind_mph) || 0,
+            elevationM: envPayload.elevation_m || 0,
+            tempK: envPayload.temp_kelvin || 288.15,
+            windMph: windMph,
             m7,
             m8,
             m9,
             m11,
             m12,
-            psi11_12
+            psi11_12,
+            baseTelemetryTotal
         };
 
         AppState.processedGames.push(gameRecord);
@@ -163,19 +181,41 @@ function recalculateAndRenderAll() {
                 const m1 = calcVigFreeProbability(prop.base_odds_over || -110, prop.base_odds_under || -110);
                 const vigFreeOver = m1.trueProbA;
 
-                let rawModelProb = 0.5;
-                if (prop.market_type === "spread" || prop.market_type === "total") {
-                    rawModelProb = prop.model_win_prob !== undefined ? prop.model_win_prob : 0.50;
+                const vegasLine = (prop.base_line !== undefined && prop.base_line !== null)
+                    ? Number(prop.base_line)
+                    : 0;
+
+                const isHomeSpread = prop.market_type === "spread" && prop.player.startsWith(`${game.home_team} `);
+
+                // 1. Determine Locked ("Just the Tip") Baseline Projection & Logistic Win Probability
+                let baseProjectedLine = vegasLine;
+                let rawModelProb = 0.50;
+
+                if (prop.market_type === "spread") {
+                    baseProjectedLine = isHomeSpread
+                        ? m9Base.fairHomeSpread
+                        : Number((-m9Base.fairHomeSpread).toFixed(2));
+                    const spreadPointGap = vegasLine - baseProjectedLine;
+                    rawModelProb = (typeof calcPointGapWinProb === "function")
+                        ? calcPointGapWinProb(spreadPointGap)
+                        : Math.max(0.05, Math.min(0.95, 0.50 + (spreadPointGap * 0.03)));
+                } else if (prop.market_type === "total") {
+                    baseProjectedLine = baseTelemetryTotal;
+                    const totalPointGap = Math.abs(baseProjectedLine - vegasLine);
+                    rawModelProb = (typeof calcPointGapWinProb === "function")
+                        ? calcPointGapWinProb(totalPointGap)
+                        : Math.max(0.50, Math.min(0.95, 0.50 + (totalPointGap * 0.03)));
                 } else if (prop.market_type === "discrete_count") {
-                    const lambda = prop.projected_mean_mu || 1.5;
+                    baseProjectedLine = prop.projected_mean_mu || 1.5;
                     rawModelProb = prop.dispersion_r
-                        ? calcNegBinOverProb(lambda, prop.dispersion_r, prop.base_line)
-                        : calcPoissonOverProb(lambda, prop.base_line);
+                        ? calcNegBinOverProb(baseProjectedLine, prop.dispersion_r, vegasLine)
+                        : calcPoissonOverProb(baseProjectedLine, vegasLine);
                 } else {
+                    baseProjectedLine = prop.projected_mean_mu || vegasLine || 50;
                     const gammaRes = calcGammaSurvivalProb(
-                        prop.projected_mean_mu || 50,
+                        baseProjectedLine,
                         prop.projected_variance_sigma2 || 225,
-                        prop.base_line || 45.5
+                        vegasLine || 45.5
                     );
                     rawModelProb = gammaRes.trueOverProb;
                 }
@@ -196,32 +236,47 @@ function recalculateAndRenderAll() {
 
                 const masterAgg = calcMasterFibonacciAggregate(moduleNormScores, 13, sliderVal);
 
-                // 1. Apply Mode & Slider Physics
+                // 2. Apply Active Mode (Unsolicited / DaVinci) & Slider Physics to Line and Probability
+                let finalCalculatedLine = baseProjectedLine;
                 let activeModelProb = rawModelProb;
-                if (mode === "unsolicited") {
-                    activeModelProb = Math.max(0.01, Math.min(0.99, rawModelProb + (psi11_12 * 0.025) + (masterAgg.omegaFibScore * 0.15)));
-                } else if (mode === "davinci") {
-                    const sliderBoost = sliderVal * 0.06;
-                    activeModelProb = Math.max(0.01, Math.min(0.99, rawModelProb + (psi11_12 * 0.04) + sliderBoost));
-                }
+                let displayLabel = prop.player;
 
-                // 2. Anchor directly to base_line and shift dynamically with Mode & Slider
-                const liveLine = (prop.base_line !== undefined && prop.base_line !== null)
-                    ? Number(prop.base_line)
-                    : (prop.projected_mean_mu || 0);
-
-                let finalCalculatedLine = liveLine;
                 if (prop.market_type === "spread") {
-                    const spreadShift = (activeModelProb - 0.50) * 11.0;
-                    // Subtracting spreadShift makes a favored spread more negative when win prob increases
-                    finalCalculatedLine = Number((liveLine - spreadShift).toFixed(2));
+                    const activeHomeSpread = m9.fairHomeSpread - (mode === "davinci" ? (sliderVal * 0.85) : 0);
+                    finalCalculatedLine = isHomeSpread
+                        ? Number(activeHomeSpread.toFixed(2))
+                        : Number((-activeHomeSpread).toFixed(2));
+
+                    const activeSpreadGap = vegasLine - finalCalculatedLine;
+                    activeModelProb = (typeof calcPointGapWinProb === "function")
+                        ? calcPointGapWinProb(activeSpreadGap)
+                        : Math.max(0.05, Math.min(0.95, 0.50 + (activeSpreadGap * 0.03)));
                 } else if (prop.market_type === "total") {
-                    const totalShift = (activeModelProb - 0.50) * 15.0;
-                    finalCalculatedLine = Number((liveLine + totalShift).toFixed(2));
+                    let modeTotalShift = 0.0;
+                    if (mode === "unsolicited") {
+                        modeTotalShift = (psi11_12 * 0.45) + (m7.passGameModifierYards * 0.08);
+                    } else if (mode === "davinci") {
+                        modeTotalShift = (psi11_12 * 0.65) + (sliderVal * 1.45);
+                    }
+                    finalCalculatedLine = Number((baseProjectedLine + modeTotalShift).toFixed(1));
+
+                    const isUnderPick = finalCalculatedLine < vegasLine;
+                    const dirTag = isUnderPick ? "U" : "O";
+                    displayLabel = `${game.away_team}@${game.home_team} Total (${dirTag} ${vegasLine}) (${game.away_team} @ ${game.home_team})`;
+
+                    const activeTotalGap = Math.abs(finalCalculatedLine - vegasLine);
+                    activeModelProb = (typeof calcPointGapWinProb === "function")
+                        ? calcPointGapWinProb(activeTotalGap)
+                        : Math.max(0.50, Math.min(0.95, 0.50 + (activeTotalGap * 0.03)));
                 } else {
-                    const baseMean = prop.projected_mean_mu || liveLine;
+                    if (mode === "unsolicited") {
+                        activeModelProb = Math.max(0.01, Math.min(0.99, rawModelProb + (psi11_12 * 0.025) + (masterAgg.omegaFibScore * 0.15)));
+                    } else if (mode === "davinci") {
+                        const sliderBoost = sliderVal * 0.06;
+                        activeModelProb = Math.max(0.01, Math.min(0.99, rawModelProb + (psi11_12 * 0.04) + sliderBoost));
+                    }
                     const propShift = (activeModelProb - rawModelProb) * 12.0;
-                    finalCalculatedLine = Number((baseMean + propShift).toFixed(2));
+                    finalCalculatedLine = Number((baseProjectedLine + propShift).toFixed(1));
                 }
 
                 const m2 = calcExpectedValueAndKelly(activeModelProb, prop.base_odds_over || -110);
@@ -229,9 +284,9 @@ function recalculateAndRenderAll() {
                 let altTrueProb = activeModelProb;
                 if (prop.alt_line !== undefined) {
                     const altGamma = calcGammaSurvivalProb(
-                        finalCalculatedLine || 50,
+                        Math.abs(finalCalculatedLine) || 50,
                         prop.projected_variance_sigma2 || 225,
-                        prop.alt_line
+                        Math.abs(prop.alt_line) || 45.5
                     );
                     altTrueProb = altGamma.trueOverProb;
                 }
@@ -248,7 +303,7 @@ function recalculateAndRenderAll() {
                     gameId: game.game_id,
                     league: gameLeague,
                     matchup: gameRecord.matchup,
-                    player: prop.player,
+                    player: displayLabel,
                     marketType: prop.market_type,
                     baseLine: prop.base_line,
                     baseOdds: prop.base_odds_over || -110,
@@ -350,9 +405,18 @@ function render_game_cards(data) {
                 const propKey = `${game.game_id}_${p.player}_${idx}`;
                 const engineData = AppState.processedProps.find(ep => ep.propKey === propKey);
 
+                const rowLabel = engineData ? engineData.player : p.player;
                 const proj = engineData ? engineData.projectedMean : p.projected_mean_mu;
                 const winPct = engineData ? engineData.activeModelPct : 50.0;
-                const displayProj = (proj === 0 || proj === "0.0") ? "0" : (proj !== undefined ? proj : "--");
+
+                let displayProj = "--";
+                if (proj !== undefined && proj !== null) {
+                    if (p.market_type === "spread" && Number(proj) > 0) {
+                        displayProj = `+${proj}`;
+                    } else {
+                        displayProj = `${proj}`;
+                    }
+                }
 
                 const propRow = document.createElement("div");
                 propRow.style.display = "flex";
@@ -362,8 +426,8 @@ function render_game_cards(data) {
                 propRow.style.borderBottom = "1px solid #0f172a";
 
                 propRow.innerHTML = `
-                    <span>${p.player}</span>
-                    <span style="color: ${winPct > 50 ? '#22c55e' : '#cbd5e1'};">
+                    <span>${rowLabel}</span>
+                    <span style="color: ${winPct > 52.38 ? '#22c55e' : '#cbd5e1'};">
                         Proj: ${displayProj} (Win: ${winPct}%)
                     </span>
                 `;
