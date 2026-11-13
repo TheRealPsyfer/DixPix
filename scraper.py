@@ -191,8 +191,7 @@ def build_master_payload():
     raw_odds.sort(key=lambda g: g.get("commence_time", ""))
 
     # Identify target game on deck for props pull
-    target_event_id = raw_odds[0]["id"] if raw_odds else None
-    target_props_data = None
+    target_event_id = None
     if target_event_id:
         print(f"[Props Scraper] Fetching primetime props for event: {target_event_id}...")
         target_props_data = fetch_target_game_props(target_event_id, API_KEY)
@@ -418,4 +417,10 @@ def run_daemon():
         time.sleep(POLL_INTERVAL_SECONDS)
 
 if __name__ == "__main__":
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        payload = build_master_payload()
+        write_atomic_json(payload, DATA_FILE)
+        print(f"[Cloud Scraper] Synced {len(payload['games'])} games to {DATA_FILE}")
+    else:
+        run_daemon()
     run_daemon()
