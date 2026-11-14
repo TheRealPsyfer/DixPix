@@ -2,7 +2,7 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-14T08:36:51Z"
+    "last_updated": "2026-11-14T12:27:38Z"
   },
   "games": [
     {
@@ -1964,9 +1964,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 39.8,
+        "wind_mph": 5.8,
+        "pressure_hpa": 1003.9,
         "is_dome": false,
         "elevation_m": 60
       },
