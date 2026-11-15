@@ -2,7 +2,7 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-15T04:41:40Z"
+    "last_updated": "2026-11-15T08:37:19Z"
   },
   "games": [
     {
@@ -52,7 +52,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": -2.5,
-          "base_odds_over": -120,
+          "base_odds_over": -115,
           "base_odds_under": -110,
           "alt_line": -5.0,
           "alt_odds_over": -165
@@ -64,7 +64,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": 2.5,
-          "base_odds_over": 100,
+          "base_odds_over": -105,
           "base_odds_under": -110,
           "alt_line": 0.0,
           "alt_odds_over": -165
@@ -76,8 +76,8 @@
           "projected_mean_mu": 42.6,
           "projected_variance_sigma2": 0,
           "base_line": 49.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
+          "base_odds_over": -105,
+          "base_odds_under": -115,
           "alt_line": 54.0,
           "alt_odds_over": -165
         }
@@ -1184,9 +1184,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 31.8,
+        "wind_mph": 4.7,
+        "pressure_hpa": 995.9,
         "is_dome": false,
         "elevation_m": 215
       },
@@ -1262,9 +1262,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 38.9,
+        "wind_mph": 6.0,
+        "pressure_hpa": 992.6,
         "is_dome": false,
         "elevation_m": 182
       },
@@ -1340,9 +1340,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 32.5,
+        "wind_mph": 4.7,
+        "pressure_hpa": 1003.1,
         "is_dome": false,
         "elevation_m": 181
       },
@@ -1420,7 +1420,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1013.25,
+        "pressure_hpa": 996.9,
         "is_dome": true,
         "elevation_m": 184
       },
@@ -1498,7 +1498,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1013.25,
+        "pressure_hpa": 1000.5,
         "is_dome": true,
         "elevation_m": 183
       },
@@ -1574,9 +1574,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 41.2,
+        "wind_mph": 6.7,
+        "pressure_hpa": 1017.7,
         "is_dome": false,
         "elevation_m": 12
       },
@@ -1654,7 +1654,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1013.25,
+        "pressure_hpa": 1010.5,
         "is_dome": true,
         "elevation_m": 40
       },
@@ -1730,9 +1730,9 @@
       "kickoff_local_hour": 14,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 41.4,
+        "wind_mph": 1.6,
+        "pressure_hpa": 836.1,
         "is_dome": false,
         "elevation_m": 1609
       },
@@ -1808,9 +1808,9 @@
       "kickoff_local_hour": 16,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 38.8,
+        "wind_mph": 6.1,
+        "pressure_hpa": 1015.6,
         "is_dome": false,
         "elevation_m": 2
       },
@@ -1886,9 +1886,9 @@
       "kickoff_local_hour": 17,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 51.9,
+        "wind_mph": 3.9,
+        "pressure_hpa": 1015.7,
         "is_dome": false,
         "elevation_m": 7
       },
@@ -1964,9 +1964,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 41.5,
+        "wind_mph": 9.5,
+        "pressure_hpa": 1011.7,
         "is_dome": false,
         "elevation_m": 60
       },
