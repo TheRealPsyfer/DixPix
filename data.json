@@ -2,7 +2,7 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-14T20:23:21Z"
+    "last_updated": "2026-11-15T00:26:15Z"
   },
   "games": [
     {
@@ -16,7 +16,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 996.8,
+        "pressure_hpa": 997.8,
         "is_dome": true,
         "elevation_m": 183
       },
@@ -94,7 +94,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 982.8,
+        "pressure_hpa": 983.6,
         "is_dome": true,
         "elevation_m": 305
       },
@@ -170,9 +170,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 43.7,
-        "wind_mph": 10.6,
-        "pressure_hpa": 1008.9,
+        "temperature_f": 40.5,
+        "wind_mph": 5.6,
+        "pressure_hpa": 1011.2,
         "is_dome": false,
         "elevation_m": 2
       },
@@ -250,7 +250,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1018.1,
+        "pressure_hpa": 1018.9,
         "is_dome": true,
         "elevation_m": 2
       },
@@ -326,9 +326,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 43.3,
-        "wind_mph": 16.6,
-        "pressure_hpa": 996.9,
+        "temperature_f": 42.3,
+        "wind_mph": 18.9,
+        "pressure_hpa": 998.4,
         "is_dome": false,
         "elevation_m": 177
       },
@@ -404,9 +404,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 43.9,
-        "wind_mph": 5.1,
-        "pressure_hpa": 999.8,
+        "temperature_f": 37.8,
+        "wind_mph": 2.2,
+        "pressure_hpa": 1000.2,
         "is_dome": false,
         "elevation_m": 195
       },
@@ -436,27 +436,27 @@
       },
       "props_board": [
         {
-          "player": "GB Spread (-3.0) (GB vs MIN)",
+          "player": "GB Spread (-2.5) (GB vs MIN)",
           "market_type": "spread",
           "model_win_prob": 0.4999,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": -3.0,
-          "base_odds_over": -110,
+          "base_line": -2.5,
+          "base_odds_over": -120,
           "base_odds_under": -110,
-          "alt_line": -5.5,
+          "alt_line": -5.0,
           "alt_odds_over": -165
         },
         {
-          "player": "MIN Spread (+3.0) (MIN @ GB)",
+          "player": "MIN Spread (+2.5) (MIN @ GB)",
           "market_type": "spread",
           "model_win_prob": 0.5001,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": 3.0,
-          "base_odds_over": -110,
+          "base_line": 2.5,
+          "base_odds_over": 100,
           "base_odds_under": -110,
-          "alt_line": 0.5,
+          "alt_line": 0.0,
           "alt_odds_over": -165
         },
         {
@@ -484,7 +484,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 997.1,
+        "pressure_hpa": 998.2,
         "is_dome": true,
         "elevation_m": 218
       },
@@ -560,9 +560,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 52.9,
-        "wind_mph": 8.1,
-        "pressure_hpa": 1008.2,
+        "temperature_f": 43.8,
+        "wind_mph": 4.5,
+        "pressure_hpa": 1009.4,
         "is_dome": false,
         "elevation_m": 130
       },
@@ -640,7 +640,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 974.3,
+        "pressure_hpa": 974.8,
         "is_dome": true,
         "elevation_m": 328
       },
@@ -700,8 +700,8 @@
           "projected_mean_mu": 42.5,
           "projected_variance_sigma2": 0,
           "base_line": 39.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
+          "base_odds_over": -105,
+          "base_odds_under": -115,
           "alt_line": 35.0,
           "alt_odds_over": -165
         }
@@ -796,7 +796,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 996.9,
+        "pressure_hpa": 998.0,
         "is_dome": true,
         "elevation_m": 184
       },
@@ -872,9 +872,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 46.2,
-        "wind_mph": 10.4,
-        "pressure_hpa": 1004.1,
+        "temperature_f": 43.8,
+        "wind_mph": 3.6,
+        "pressure_hpa": 1005.1,
         "is_dome": false,
         "elevation_m": 148
       },
@@ -950,9 +950,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 48.7,
-        "wind_mph": 12.8,
-        "pressure_hpa": 1011.3,
+        "temperature_f": 42.4,
+        "wind_mph": 6.0,
+        "pressure_hpa": 1014.5,
         "is_dome": false,
         "elevation_m": 10
       },
@@ -1030,7 +1030,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1015.6,
+        "pressure_hpa": 1016.5,
         "is_dome": true,
         "elevation_m": 15
       },
@@ -1106,9 +1106,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 49.2,
-        "wind_mph": 5.1,
-        "pressure_hpa": 991.9,
+        "temperature_f": 41.9,
+        "wind_mph": 5.3,
+        "pressure_hpa": 991.4,
         "is_dome": false,
         "elevation_m": 250
       },
@@ -1184,9 +1184,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 52.0,
-        "wind_mph": 8.7,
-        "pressure_hpa": 992.2,
+        "temperature_f": 42.0,
+        "wind_mph": 5.4,
+        "pressure_hpa": 993.9,
         "is_dome": false,
         "elevation_m": 215
       },
@@ -1262,9 +1262,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 40.9,
-        "wind_mph": 9.3,
-        "pressure_hpa": 985.9,
+        "temperature_f": 39.4,
+        "wind_mph": 9.8,
+        "pressure_hpa": 988.3,
         "is_dome": false,
         "elevation_m": 182
       },
@@ -1340,9 +1340,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 44.0,
-        "wind_mph": 7.4,
-        "pressure_hpa": 1000.9,
+        "temperature_f": 37.7,
+        "wind_mph": 5.5,
+        "pressure_hpa": 1001.3,
         "is_dome": false,
         "elevation_m": 181
       },
@@ -1420,7 +1420,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 996.9,
+        "pressure_hpa": 998.0,
         "is_dome": true,
         "elevation_m": 184
       },
@@ -1498,7 +1498,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 996.8,
+        "pressure_hpa": 997.8,
         "is_dome": true,
         "elevation_m": 183
       },
@@ -1574,9 +1574,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 45.9,
-        "wind_mph": 10.4,
-        "pressure_hpa": 1010.3,
+        "temperature_f": 41.1,
+        "wind_mph": 6.1,
+        "pressure_hpa": 1013.1,
         "is_dome": false,
         "elevation_m": 12
       },
@@ -1654,7 +1654,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1007.2,
+        "pressure_hpa": 1008.1,
         "is_dome": true,
         "elevation_m": 40
       },
@@ -1730,9 +1730,9 @@
       "kickoff_local_hour": 14,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 48.6,
-        "wind_mph": 8.1,
-        "pressure_hpa": 831.5,
+        "temperature_f": 44.8,
+        "wind_mph": 4.5,
+        "pressure_hpa": 832.6,
         "is_dome": false,
         "elevation_m": 1609
       },
@@ -1808,9 +1808,9 @@
       "kickoff_local_hour": 16,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 43.7,
-        "wind_mph": 10.6,
-        "pressure_hpa": 1008.9,
+        "temperature_f": 40.5,
+        "wind_mph": 5.6,
+        "pressure_hpa": 1011.2,
         "is_dome": false,
         "elevation_m": 2
       },
@@ -1886,9 +1886,9 @@
       "kickoff_local_hour": 17,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 62.6,
-        "wind_mph": 3.8,
-        "pressure_hpa": 1013.6,
+        "temperature_f": 62.7,
+        "wind_mph": 1.8,
+        "pressure_hpa": 1013.5,
         "is_dome": false,
         "elevation_m": 7
       },
@@ -1964,9 +1964,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 48.4,
-        "wind_mph": 14.2,
-        "pressure_hpa": 1004.5,
+        "temperature_f": 45.7,
+        "wind_mph": 9.6,
+        "pressure_hpa": 1007.5,
         "is_dome": false,
         "elevation_m": 60
       },
