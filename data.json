@@ -2,165 +2,9 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-16T00:42:07Z"
+    "last_updated": "2026-11-16T05:16:27Z"
   },
   "games": [
-    {
-      "game_id": "SF_DAL_2026",
-      "league": "NFL",
-      "home_team": "DAL",
-      "away_team": "SF",
-      "commence_time": "2026-11-15T21:25:51Z",
-      "kickoff_local_hour": 15,
-      "expected_plays": 126,
-      "environmental_payload": {
-        "temperature_f": 72.0,
-        "wind_mph": 0.0,
-        "pressure_hpa": 1004.1,
-        "is_dome": true,
-        "elevation_m": 184
-      },
-      "circadian_payload": {
-        "away_travel_miles": 1438.4,
-        "away_tz_shift": 2,
-        "rest_differential_days": 0,
-        "short_week_flag": 0
-      },
-      "team_telemetry": {
-        "home": {
-          "net_epa_per_play": -0.02,
-          "qb_replacement_delta": -3.5,
-          "turnover_reg_delta": 0.3,
-          "closing_rank_pct": 0.49,
-          "active_win_streak": 0,
-          "opp_rz_dvoa": 0.06
-        },
-        "away": {
-          "net_epa_per_play": 0.105,
-          "qb_replacement_delta": 0.0,
-          "turnover_reg_delta": 0.1,
-          "closing_rank_pct": 0.79,
-          "active_win_streak": 2,
-          "opp_rz_dvoa": -0.12
-        }
-      },
-      "props_board": [
-        {
-          "player": "DAL Spread (+5.5) (DAL vs SF)",
-          "market_type": "spread",
-          "model_win_prob": 0.4988,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": 5.5,
-          "base_odds_over": 1780,
-          "base_odds_under": -110,
-          "alt_line": 3.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "SF Spread (-5.5) (SF @ DAL)",
-          "market_type": "spread",
-          "model_win_prob": 0.5012,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": -5.5,
-          "base_odds_over": -10000,
-          "base_odds_under": -110,
-          "alt_line": -8.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "SF@DAL Total (U 86.5) (SF @ DAL)",
-          "market_type": "total",
-          "model_win_prob": 0.68,
-          "projected_mean_mu": 42.6,
-          "projected_variance_sigma2": 0,
-          "base_line": 86.5,
-          "base_odds_over": -7600,
-          "base_odds_under": 1460,
-          "alt_line": 91.0,
-          "alt_odds_over": -165
-        }
-      ]
-    },
-    {
-      "game_id": "PIT_CIN_2026",
-      "league": "NFL",
-      "home_team": "CIN",
-      "away_team": "PIT",
-      "commence_time": "2026-11-16T01:20:00Z",
-      "kickoff_local_hour": 20,
-      "expected_plays": 126,
-      "environmental_payload": {
-        "temperature_f": 40.7,
-        "wind_mph": 3.2,
-        "pressure_hpa": 1011.8,
-        "is_dome": false,
-        "elevation_m": 148
-      },
-      "circadian_payload": {
-        "away_travel_miles": 256.5,
-        "away_tz_shift": 0,
-        "rest_differential_days": 0,
-        "short_week_flag": 0
-      },
-      "team_telemetry": {
-        "home": {
-          "net_epa_per_play": 0.068,
-          "qb_replacement_delta": 0.0,
-          "turnover_reg_delta": -0.1,
-          "closing_rank_pct": 0.64,
-          "active_win_streak": 1,
-          "opp_rz_dvoa": -0.08
-        },
-        "away": {
-          "net_epa_per_play": 0.065,
-          "qb_replacement_delta": 0.0,
-          "turnover_reg_delta": -0.6,
-          "closing_rank_pct": 0.84,
-          "active_win_streak": 3,
-          "opp_rz_dvoa": -0.19
-        }
-      },
-      "props_board": [
-        {
-          "player": "CIN Spread (-3.5) (CIN vs PIT)",
-          "market_type": "spread",
-          "model_win_prob": 0.5,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": -3.5,
-          "base_odds_over": -120,
-          "base_odds_under": -110,
-          "alt_line": -6.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "PIT Spread (+3.5) (PIT @ CIN)",
-          "market_type": "spread",
-          "model_win_prob": 0.5,
-          "projected_mean_mu": 0,
-          "projected_variance_sigma2": 0,
-          "base_line": 3.5,
-          "base_odds_over": 100,
-          "base_odds_under": -110,
-          "alt_line": 1.0,
-          "alt_odds_over": -165
-        },
-        {
-          "player": "PIT@CIN Total (U 49.5) (PIT @ CIN)",
-          "market_type": "total",
-          "model_win_prob": 0.68,
-          "projected_mean_mu": 42.6,
-          "projected_variance_sigma2": 0,
-          "base_line": 49.5,
-          "base_odds_over": -115,
-          "base_odds_under": -105,
-          "alt_line": 54.0,
-          "alt_odds_over": -165
-        }
-      ]
-    },
     {
       "game_id": "LAC_BAL_2026",
       "league": "NFL",
@@ -170,9 +14,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 42.7,
-        "wind_mph": 4.9,
-        "pressure_hpa": 1025.1,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 10
       },
@@ -250,7 +94,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1019.8,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 15
       },
@@ -280,27 +124,27 @@
       },
       "props_board": [
         {
-          "player": "HOU Spread (-9.5) (HOU vs IND)",
+          "player": "HOU Spread (-10.0) (HOU vs IND)",
           "market_type": "spread",
           "model_win_prob": 0.5006,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": -9.5,
-          "base_odds_over": -120,
+          "base_line": -10.0,
+          "base_odds_over": -110,
           "base_odds_under": -110,
-          "alt_line": -12.0,
+          "alt_line": -12.5,
           "alt_odds_over": -165
         },
         {
-          "player": "IND Spread (+9.5) (IND @ HOU)",
+          "player": "IND Spread (+10.0) (IND @ HOU)",
           "market_type": "spread",
           "model_win_prob": 0.4994,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": 9.5,
-          "base_odds_over": 100,
+          "base_line": 10.0,
+          "base_odds_over": -110,
           "base_odds_under": -110,
-          "alt_line": 7.0,
+          "alt_line": 7.5,
           "alt_odds_over": -165
         },
         {
@@ -310,8 +154,8 @@
           "projected_mean_mu": 42.5,
           "projected_variance_sigma2": 0,
           "base_line": 44.5,
-          "base_odds_over": -105,
-          "base_odds_under": -115,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
           "alt_line": 49.0,
           "alt_odds_over": -165
         }
@@ -326,9 +170,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 45.4,
-        "wind_mph": 6.1,
-        "pressure_hpa": 996.3,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 250
       },
@@ -404,9 +248,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 44.0,
+        "temperature_f": 65.0,
         "wind_mph": 5.0,
-        "pressure_hpa": 999.4,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 215
       },
@@ -482,9 +326,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 38.4,
-        "wind_mph": 5.8,
-        "pressure_hpa": 999.7,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 182
       },
@@ -544,8 +388,8 @@
           "projected_mean_mu": 42.6,
           "projected_variance_sigma2": 0,
           "base_line": 47.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
+          "base_odds_over": -115,
+          "base_odds_under": -105,
           "alt_line": 52.0,
           "alt_odds_over": -165
         }
@@ -560,9 +404,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 40.9,
-        "wind_mph": 5.7,
-        "pressure_hpa": 1006.3,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 181
       },
@@ -592,27 +436,27 @@
       },
       "props_board": [
         {
-          "player": "CHI Spread (-9.5) (CHI vs NO)",
+          "player": "CHI Spread (-10.5) (CHI vs NO)",
           "market_type": "spread",
           "model_win_prob": 0.5007,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": -9.5,
-          "base_odds_over": -115,
+          "base_line": -10.5,
+          "base_odds_over": -105,
           "base_odds_under": -110,
-          "alt_line": -12.0,
+          "alt_line": -13.0,
           "alt_odds_over": -165
         },
         {
-          "player": "NO Spread (+9.5) (NO @ CHI)",
+          "player": "NO Spread (+10.5) (NO @ CHI)",
           "market_type": "spread",
           "model_win_prob": 0.4993,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": 9.5,
-          "base_odds_over": -105,
+          "base_line": 10.5,
+          "base_odds_over": -115,
           "base_odds_under": -110,
-          "alt_line": 7.0,
+          "alt_line": 8.0,
           "alt_odds_over": -165
         },
         {
@@ -640,7 +484,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1004.1,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 184
       },
@@ -676,7 +520,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": -7.5,
-          "base_odds_over": -120,
+          "base_odds_over": -115,
           "base_odds_under": -110,
           "alt_line": -10.0,
           "alt_odds_over": -165
@@ -688,21 +532,21 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": 7.5,
-          "base_odds_over": 100,
+          "base_odds_over": -105,
           "base_odds_under": -110,
           "alt_line": 5.0,
           "alt_odds_over": -165
         },
         {
-          "player": "TEN@DAL Total (U 51.5) (TEN @ DAL)",
+          "player": "TEN@DAL Total (U 52.5) (TEN @ DAL)",
           "market_type": "total",
           "model_win_prob": 0.68,
           "projected_mean_mu": 42.4,
           "projected_variance_sigma2": 0,
-          "base_line": 51.5,
-          "base_odds_over": 100,
-          "base_odds_under": -120,
-          "alt_line": 56.0,
+          "base_line": 52.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 57.0,
           "alt_odds_over": -165
         }
       ]
@@ -718,7 +562,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1006.3,
+        "pressure_hpa": 1013.25,
         "is_dome": true,
         "elevation_m": 183
       },
@@ -794,9 +638,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 43.5,
-        "wind_mph": 4.3,
-        "pressure_hpa": 1024.8,
+        "temperature_f": 65.0,
+        "wind_mph": 5.0,
+        "pressure_hpa": 1013.25,
         "is_dome": false,
         "elevation_m": 12
       },
@@ -832,7 +676,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": 4.5,
-          "base_odds_over": -110,
+          "base_odds_over": -115,
           "base_odds_under": -110,
           "alt_line": 2.0,
           "alt_odds_over": -165
@@ -844,7 +688,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": -4.5,
-          "base_odds_over": -110,
+          "base_odds_over": -105,
           "base_odds_under": -110,
           "alt_line": -7.0,
           "alt_odds_over": -165
@@ -856,8 +700,8 @@
           "projected_mean_mu": 42.7,
           "projected_variance_sigma2": 0,
           "base_line": 38.5,
-          "base_odds_over": -115,
-          "base_odds_under": -105,
+          "base_odds_over": -108,
+          "base_odds_under": -112,
           "alt_line": 34.0,
           "alt_odds_over": -165
         }
@@ -874,7 +718,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1010.8,
+        "pressure_hpa": 1011.6,
         "is_dome": true,
         "elevation_m": 40
       },
@@ -950,9 +794,9 @@
       "kickoff_local_hour": 14,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 50.8,
-        "wind_mph": 5.1,
-        "pressure_hpa": 842.9,
+        "temperature_f": 39.3,
+        "wind_mph": 1.2,
+        "pressure_hpa": 838.1,
         "is_dome": false,
         "elevation_m": 1609
       },
@@ -982,27 +826,27 @@
       },
       "props_board": [
         {
-          "player": "DEN Spread (-8.5) (DEN vs LV)",
+          "player": "DEN Spread (-9.5) (DEN vs LV)",
           "market_type": "spread",
           "model_win_prob": 0.5013,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": -8.5,
-          "base_odds_over": -115,
+          "base_line": -9.5,
+          "base_odds_over": -110,
           "base_odds_under": -110,
-          "alt_line": -11.0,
+          "alt_line": -12.0,
           "alt_odds_over": -165
         },
         {
-          "player": "LV Spread (+8.5) (LV @ DEN)",
+          "player": "LV Spread (+9.5) (LV @ DEN)",
           "market_type": "spread",
           "model_win_prob": 0.4987,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": 8.5,
-          "base_odds_over": -105,
+          "base_line": 9.5,
+          "base_odds_over": -110,
           "base_odds_under": -110,
-          "alt_line": 6.0,
+          "alt_line": 7.0,
           "alt_odds_over": -165
         },
         {
@@ -1028,9 +872,9 @@
       "kickoff_local_hour": 16,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 42.3,
-        "wind_mph": 4.7,
-        "pressure_hpa": 1023.2,
+        "temperature_f": 37.9,
+        "wind_mph": 3.4,
+        "pressure_hpa": 1024.7,
         "is_dome": false,
         "elevation_m": 2
       },
@@ -1106,9 +950,9 @@
       "kickoff_local_hour": 17,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 61.1,
-        "wind_mph": 7.7,
-        "pressure_hpa": 1016.1,
+        "temperature_f": 54.5,
+        "wind_mph": 7.3,
+        "pressure_hpa": 1017.4,
         "is_dome": false,
         "elevation_m": 7
       },
@@ -1138,39 +982,39 @@
       },
       "props_board": [
         {
-          "player": "MIN Spread (+3.5) (MIN @ SF)",
+          "player": "MIN Spread (+3.0) (MIN @ SF)",
           "market_type": "spread",
           "model_win_prob": 0.4999,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": 3.5,
-          "base_odds_over": -115,
+          "base_line": 3.0,
+          "base_odds_over": -110,
           "base_odds_under": -110,
-          "alt_line": 1.0,
+          "alt_line": 0.5,
           "alt_odds_over": -165
         },
         {
-          "player": "SF Spread (-3.5) (SF vs MIN)",
+          "player": "SF Spread (-3.0) (SF vs MIN)",
           "market_type": "spread",
           "model_win_prob": 0.5001,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": -3.5,
-          "base_odds_over": -105,
+          "base_line": -3.0,
+          "base_odds_over": -110,
           "base_odds_under": -110,
-          "alt_line": -6.0,
+          "alt_line": -5.5,
           "alt_odds_over": -165
         },
         {
-          "player": "MIN@SF Total (U 46.5) (MIN @ SF)",
+          "player": "MIN@SF Total (U 45.5) (MIN @ SF)",
           "market_type": "total",
           "model_win_prob": 0.68,
           "projected_mean_mu": 42.7,
           "projected_variance_sigma2": 0,
-          "base_line": 46.5,
+          "base_line": 45.5,
           "base_odds_over": -105,
           "base_odds_under": -115,
-          "alt_line": 51.0,
+          "alt_line": 50.0,
           "alt_odds_over": -165
         }
       ]
@@ -1184,9 +1028,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 47.9,
-        "wind_mph": 5.1,
-        "pressure_hpa": 1017.4,
+        "temperature_f": 39.1,
+        "wind_mph": 4.4,
+        "pressure_hpa": 1018.5,
         "is_dome": false,
         "elevation_m": 60
       },
@@ -1222,7 +1066,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": -4.5,
-          "base_odds_over": 100,
+          "base_odds_over": -110,
           "base_odds_under": -110,
           "alt_line": -7.0,
           "alt_odds_over": -165
@@ -1234,7 +1078,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": 4.5,
-          "base_odds_over": -120,
+          "base_odds_over": -110,
           "base_odds_under": -110,
           "alt_line": 2.0,
           "alt_odds_over": -165
