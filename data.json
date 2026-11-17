@@ -2,7 +2,7 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-17T12:43:18Z"
+    "last_updated": "2026-11-17T16:49:02Z"
   },
   "games": [
     {
@@ -202,39 +202,39 @@
       },
       "props_board": [
         {
-          "player": "BAL Spread (+1.5) (BAL @ CAR)",
+          "player": "BAL Spread (+2.5) (BAL @ CAR)",
           "market_type": "spread",
           "model_win_prob": 0.5026,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": 1.5,
-          "base_odds_over": 100,
+          "base_line": 2.5,
+          "base_odds_over": -110,
           "base_odds_under": -110,
-          "alt_line": -1.0,
+          "alt_line": 0.0,
           "alt_odds_over": -165
         },
         {
-          "player": "CAR Spread (-1.5) (CAR vs BAL)",
+          "player": "CAR Spread (-2.5) (CAR vs BAL)",
           "market_type": "spread",
           "model_win_prob": 0.4975,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": -1.5,
-          "base_odds_over": -120,
+          "base_line": -2.5,
+          "base_odds_over": -110,
           "base_odds_under": -110,
-          "alt_line": -4.0,
+          "alt_line": -5.0,
           "alt_odds_over": -165
         },
         {
-          "player": "BAL@CAR Total (U 43.5) (BAL @ CAR)",
+          "player": "BAL@CAR Total (U 44.5) (BAL @ CAR)",
           "market_type": "total",
           "model_win_prob": 0.52,
           "projected_mean_mu": 42.5,
           "projected_variance_sigma2": 0,
-          "base_line": 43.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
-          "alt_line": 48.0,
+          "base_line": 44.5,
+          "base_odds_over": -120,
+          "base_odds_under": 100,
+          "alt_line": 49.0,
           "alt_odds_over": -165
         }
       ]
@@ -520,7 +520,7 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": -6.5,
-          "base_odds_over": -105,
+          "base_odds_over": -110,
           "base_odds_under": -110,
           "alt_line": -9.0,
           "alt_odds_over": -165
@@ -532,21 +532,21 @@
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
           "base_line": 6.5,
-          "base_odds_over": -115,
+          "base_odds_over": -110,
           "base_odds_under": -110,
           "alt_line": 4.0,
           "alt_odds_over": -165
         },
         {
-          "player": "TB@DET Total (U 46.5) (TB @ DET)",
+          "player": "TB@DET Total (U 45.5) (TB @ DET)",
           "market_type": "total",
           "model_win_prob": 0.68,
           "projected_mean_mu": 42.7,
           "projected_variance_sigma2": 0,
-          "base_line": 46.5,
-          "base_odds_over": -105,
-          "base_odds_under": -115,
-          "alt_line": 51.0,
+          "base_line": 45.5,
+          "base_odds_over": -120,
+          "base_odds_under": 100,
+          "alt_line": 50.0,
           "alt_odds_over": -165
         }
       ]
@@ -670,39 +670,39 @@
       },
       "props_board": [
         {
-          "player": "LAC Spread (-2.5) (LAC vs NYJ)",
+          "player": "LAC Spread (-3.5) (LAC vs NYJ)",
           "market_type": "spread",
           "model_win_prob": 0.5008,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": -2.5,
-          "base_odds_over": -120,
+          "base_line": -3.5,
+          "base_odds_over": -105,
           "base_odds_under": -110,
-          "alt_line": -5.0,
+          "alt_line": -6.0,
           "alt_odds_over": -165
         },
         {
-          "player": "NYJ Spread (+2.5) (NYJ @ LAC)",
+          "player": "NYJ Spread (+3.5) (NYJ @ LAC)",
           "market_type": "spread",
           "model_win_prob": 0.4992,
           "projected_mean_mu": 0,
           "projected_variance_sigma2": 0,
-          "base_line": 2.5,
-          "base_odds_over": 100,
+          "base_line": 3.5,
+          "base_odds_over": -115,
           "base_odds_under": -110,
-          "alt_line": 0.0,
+          "alt_line": 1.0,
           "alt_odds_over": -165
         },
         {
-          "player": "NYJ@LAC Total (O 40.5) (NYJ @ LAC)",
+          "player": "NYJ@LAC Total (O 41.5) (NYJ @ LAC)",
           "market_type": "total",
-          "model_win_prob": 0.68,
+          "model_win_prob": 0.52,
           "projected_mean_mu": 42.5,
           "projected_variance_sigma2": 0,
-          "base_line": 40.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
-          "alt_line": 36.0,
+          "base_line": 41.5,
+          "base_odds_over": -105,
+          "base_odds_under": -115,
+          "alt_line": 37.0,
           "alt_odds_over": -165
         }
       ]
