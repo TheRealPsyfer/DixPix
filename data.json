@@ -2,7 +2,7 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-17T16:49:02Z"
+    "last_updated": "2026-11-17T20:39:15Z"
   },
   "games": [
     {
@@ -16,7 +16,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1013.25,
+        "pressure_hpa": 1022.9,
         "is_dome": true,
         "elevation_m": 15
       },
@@ -92,9 +92,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 60.8,
+        "wind_mph": 11.9,
+        "pressure_hpa": 994.8,
         "is_dome": false,
         "elevation_m": 250
       },
@@ -170,9 +170,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 61.6,
+        "wind_mph": 4.5,
+        "pressure_hpa": 1005.7,
         "is_dome": false,
         "elevation_m": 215
       },
@@ -248,9 +248,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 50.9,
+        "wind_mph": 13.4,
+        "pressure_hpa": 1003.3,
         "is_dome": false,
         "elevation_m": 182
       },
@@ -326,9 +326,9 @@
       "kickoff_local_hour": 12,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 54.2,
+        "wind_mph": 3.9,
+        "pressure_hpa": 1007.6,
         "is_dome": false,
         "elevation_m": 181
       },
@@ -406,7 +406,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1013.25,
+        "pressure_hpa": 1004.5,
         "is_dome": true,
         "elevation_m": 184
       },
@@ -484,7 +484,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1013.25,
+        "pressure_hpa": 1007.9,
         "is_dome": true,
         "elevation_m": 183
       },
@@ -560,9 +560,9 @@
       "kickoff_local_hour": 13,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 57.5,
+        "wind_mph": 6.0,
+        "pressure_hpa": 1031.4,
         "is_dome": false,
         "elevation_m": 12
       },
@@ -640,7 +640,7 @@
       "environmental_payload": {
         "temperature_f": 72.0,
         "wind_mph": 0.0,
-        "pressure_hpa": 1013.25,
+        "pressure_hpa": 1011.5,
         "is_dome": true,
         "elevation_m": 40
       },
@@ -716,9 +716,9 @@
       "kickoff_local_hour": 14,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 62.0,
+        "wind_mph": 7.1,
+        "pressure_hpa": 834.5,
         "is_dome": false,
         "elevation_m": 1609
       },
@@ -794,9 +794,9 @@
       "kickoff_local_hour": 16,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 58.7,
+        "wind_mph": 6.6,
+        "pressure_hpa": 1030.2,
         "is_dome": false,
         "elevation_m": 2
       },
@@ -872,9 +872,9 @@
       "kickoff_local_hour": 17,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 58.0,
+        "wind_mph": 2.9,
+        "pressure_hpa": 1019.4,
         "is_dome": false,
         "elevation_m": 7
       },
@@ -934,8 +934,8 @@
           "projected_mean_mu": 42.7,
           "projected_variance_sigma2": 0,
           "base_line": 46.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
+          "base_odds_over": -115,
+          "base_odds_under": -105,
           "alt_line": 51.0,
           "alt_odds_over": -165
         }
@@ -950,9 +950,9 @@
       "kickoff_local_hour": 20,
       "expected_plays": 126,
       "environmental_payload": {
-        "temperature_f": 65.0,
-        "wind_mph": 5.0,
-        "pressure_hpa": 1013.25,
+        "temperature_f": 58.2,
+        "wind_mph": 4.7,
+        "pressure_hpa": 1024.3,
         "is_dome": false,
         "elevation_m": 60
       },
@@ -1006,15 +1006,1263 @@
           "alt_odds_over": -165
         },
         {
-          "player": "CIN@WAS Total (U 52.5) (CIN @ WAS)",
+          "player": "CIN@WAS Total (U 53.5) (CIN @ WAS)",
           "market_type": "total",
           "model_win_prob": 0.68,
           "projected_mean_mu": 42.7,
           "projected_variance_sigma2": 0,
-          "base_line": 52.5,
+          "base_line": 53.5,
+          "base_odds_over": -115,
+          "base_odds_under": -105,
+          "alt_line": 58.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "GB_LAR_2026",
+      "league": "NFL",
+      "home_team": "LAR",
+      "away_team": "GB",
+      "commence_time": "2026-11-26T01:00:00Z",
+      "kickoff_local_hour": 17,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 72.0,
+        "wind_mph": 0.0,
+        "pressure_hpa": 1011.5,
+        "is_dome": true,
+        "elevation_m": 40
+      },
+      "circadian_payload": {
+        "away_travel_miles": 1763.6,
+        "away_tz_shift": -2,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.038,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.0,
+          "closing_rank_pct": 0.62,
+          "active_win_streak": 2,
+          "opp_rz_dvoa": -0.04
+        },
+        "away": {
+          "net_epa_per_play": 0.078,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.2,
+          "closing_rank_pct": 0.74,
+          "active_win_streak": 1,
+          "opp_rz_dvoa": -0.11
+        }
+      },
+      "props_board": [
+        {
+          "player": "GB Spread (+3.5) (GB @ LAR)",
+          "market_type": "spread",
+          "model_win_prob": 0.5004,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 3.5,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": 1.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "LAR Spread (-3.5) (LAR vs GB)",
+          "market_type": "spread",
+          "model_win_prob": 0.4996,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -3.5,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": -6.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "GB@LAR Total (U 45.5) (GB @ LAR)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.6,
+          "projected_variance_sigma2": 0,
+          "base_line": 45.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 50.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "CHI_DET_2026",
+      "league": "NFL",
+      "home_team": "DET",
+      "away_team": "CHI",
+      "commence_time": "2026-11-26T18:00:00Z",
+      "kickoff_local_hour": 13,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 72.0,
+        "wind_mph": 0.0,
+        "pressure_hpa": 1007.9,
+        "is_dome": true,
+        "elevation_m": 183
+      },
+      "circadian_payload": {
+        "away_travel_miles": 236.6,
+        "away_tz_shift": 1,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.155,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.5,
+          "closing_rank_pct": 0.92,
+          "active_win_streak": 5,
+          "opp_rz_dvoa": -0.21
+        },
+        "away": {
+          "net_epa_per_play": 0.012,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.5,
+          "closing_rank_pct": 0.45,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.04
+        }
+      },
+      "props_board": [
+        {
+          "player": "CHI Spread (-2.5) (CHI @ DET)",
+          "market_type": "spread",
+          "model_win_prob": 0.4986,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -2.5,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": -5.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "DET Spread (+2.5) (DET vs CHI)",
+          "market_type": "spread",
+          "model_win_prob": 0.5014,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 2.5,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": 0.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "CHI@DET Total (U 54.5) (CHI @ DET)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.7,
+          "projected_variance_sigma2": 0,
+          "base_line": 54.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 59.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "PHI_DAL_2026",
+      "league": "NFL",
+      "home_team": "DAL",
+      "away_team": "PHI",
+      "commence_time": "2026-11-26T20:30:00Z",
+      "kickoff_local_hour": 14,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 72.0,
+        "wind_mph": 0.0,
+        "pressure_hpa": 1004.5,
+        "is_dome": true,
+        "elevation_m": 184
+      },
+      "circadian_payload": {
+        "away_travel_miles": 1312.5,
+        "away_tz_shift": -1,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": -0.02,
+          "qb_replacement_delta": -3.5,
+          "turnover_reg_delta": 0.3,
+          "closing_rank_pct": 0.49,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.06
+        },
+        "away": {
+          "net_epa_per_play": 0.118,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.2,
+          "closing_rank_pct": 0.85,
+          "active_win_streak": 4,
+          "opp_rz_dvoa": -0.15
+        }
+      },
+      "props_board": [
+        {
+          "player": "DAL Spread (-7.5) (DAL vs PHI)",
+          "market_type": "spread",
+          "model_win_prob": 0.4986,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -7.5,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": -10.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "PHI Spread (+7.5) (PHI @ DAL)",
+          "market_type": "spread",
+          "model_win_prob": 0.5014,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 7.5,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": 5.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "PHI@DAL Total (U 47.5) (PHI @ DAL)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.6,
+          "projected_variance_sigma2": 0,
+          "base_line": 47.5,
+          "base_odds_over": -115,
+          "base_odds_under": -105,
+          "alt_line": 52.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "KC_BUF_2026",
+      "league": "NFL",
+      "home_team": "BUF",
+      "away_team": "KC",
+      "commence_time": "2026-11-27T01:20:00Z",
+      "kickoff_local_hour": 20,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 50.9,
+        "wind_mph": 13.4,
+        "pressure_hpa": 1003.3,
+        "is_dome": false,
+        "elevation_m": 182
+      },
+      "circadian_payload": {
+        "away_travel_miles": 857.6,
+        "away_tz_shift": 1,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.125,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.4,
+          "closing_rank_pct": 0.865,
+          "active_win_streak": 4,
+          "opp_rz_dvoa": -0.16
+        },
+        "away": {
+          "net_epa_per_play": 0.115,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.1,
+          "closing_rank_pct": 0.906,
+          "active_win_streak": 4,
+          "opp_rz_dvoa": -0.14
+        }
+      },
+      "props_board": [
+        {
+          "player": "BUF Spread (-2.5) (BUF vs KC)",
+          "market_type": "spread",
+          "model_win_prob": 0.5001,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -2.5,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": -5.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "KC Spread (+2.5) (KC @ BUF)",
+          "market_type": "spread",
+          "model_win_prob": 0.4999,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 2.5,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": 0.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "KC@BUF Total (U 50.5) (KC @ BUF)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.7,
+          "projected_variance_sigma2": 0,
+          "base_line": 50.5,
+          "base_odds_over": -120,
+          "base_odds_under": 100,
+          "alt_line": 55.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "DEN_PIT_2026",
+      "league": "NFL",
+      "home_team": "PIT",
+      "away_team": "DEN",
+      "commence_time": "2026-11-27T20:00:00Z",
+      "kickoff_local_hour": 15,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 52.1,
+        "wind_mph": 0.2,
+        "pressure_hpa": 1004.2,
+        "is_dome": false,
+        "elevation_m": 223
+      },
+      "circadian_payload": {
+        "away_travel_miles": 1318.1,
+        "away_tz_shift": 2,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.065,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.6,
+          "closing_rank_pct": 0.84,
+          "active_win_streak": 3,
+          "opp_rz_dvoa": -0.19
+        },
+        "away": {
+          "net_epa_per_play": 0.042,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.2,
+          "closing_rank_pct": 0.781,
+          "active_win_streak": 2,
+          "opp_rz_dvoa": -0.18
+        }
+      },
+      "props_board": [
+        {
+          "player": "DEN Spread (-1.5) (DEN @ PIT)",
+          "market_type": "spread",
+          "model_win_prob": 0.4998,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -1.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": -4.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "PIT Spread (+1.5) (PIT vs DEN)",
+          "market_type": "spread",
+          "model_win_prob": 0.5002,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 1.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": -1.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "DEN@PIT Total (O 41.5) (DEN @ PIT)",
+          "market_type": "total",
+          "model_win_prob": 0.52,
+          "projected_mean_mu": 42.6,
+          "projected_variance_sigma2": 0,
+          "base_line": 41.5,
           "base_odds_over": -105,
           "base_odds_under": -115,
+          "alt_line": 37.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "ATL_MIN_2026",
+      "league": "NFL",
+      "home_team": "MIN",
+      "away_team": "ATL",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "kickoff_local_hour": 12,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 72.0,
+        "wind_mph": 0.0,
+        "pressure_hpa": 989.7,
+        "is_dome": true,
+        "elevation_m": 255
+      },
+      "circadian_payload": {
+        "away_travel_miles": 906.8,
+        "away_tz_shift": -1,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.092,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.3,
+          "closing_rank_pct": 0.83,
+          "active_win_streak": 2,
+          "opp_rz_dvoa": -0.17
+        },
+        "away": {
+          "net_epa_per_play": 0.035,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.2,
+          "closing_rank_pct": 0.61,
+          "active_win_streak": 2,
+          "opp_rz_dvoa": -0.05
+        }
+      },
+      "props_board": [
+        {
+          "player": "ATL Spread (+7.0) (ATL @ MIN)",
+          "market_type": "spread",
+          "model_win_prob": 0.4994,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 7.0,
+          "base_odds_over": -115,
+          "base_odds_under": -110,
+          "alt_line": 4.5,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "MIN Spread (-7.0) (MIN vs ATL)",
+          "market_type": "spread",
+          "model_win_prob": 0.5006,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -7.0,
+          "base_odds_over": -105,
+          "base_odds_under": -110,
+          "alt_line": -9.5,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "ATL@MIN Total (O 42.5) (ATL @ MIN)",
+          "market_type": "total",
+          "model_win_prob": 0.52,
+          "projected_mean_mu": 42.6,
+          "projected_variance_sigma2": 0,
+          "base_line": 42.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 38.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "BAL_HOU_2026",
+      "league": "NFL",
+      "home_team": "HOU",
+      "away_team": "BAL",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "kickoff_local_hour": 12,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 72.0,
+        "wind_mph": 0.0,
+        "pressure_hpa": 1022.9,
+        "is_dome": true,
+        "elevation_m": 15
+      },
+      "circadian_payload": {
+        "away_travel_miles": 1254.8,
+        "away_tz_shift": -1,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.052,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.3,
+          "closing_rank_pct": 0.71,
+          "active_win_streak": 1,
+          "opp_rz_dvoa": -0.09
+        },
+        "away": {
+          "net_epa_per_play": 0.145,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.3,
+          "closing_rank_pct": 0.89,
+          "active_win_streak": 3,
+          "opp_rz_dvoa": -0.18
+        }
+      },
+      "props_board": [
+        {
+          "player": "BAL Spread (+5.5) (BAL @ HOU)",
+          "market_type": "spread",
+          "model_win_prob": 0.5009,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 5.5,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": 3.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "HOU Spread (-5.5) (HOU vs BAL)",
+          "market_type": "spread",
+          "model_win_prob": 0.4991,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -5.5,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": -8.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "BAL@HOU Total (U 43.5) (BAL @ HOU)",
+          "market_type": "total",
+          "model_win_prob": 0.52,
+          "projected_mean_mu": 42.7,
+          "projected_variance_sigma2": 0,
+          "base_line": 43.5,
+          "base_odds_over": 100,
+          "base_odds_under": -120,
+          "alt_line": 48.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "NO_CIN_2026",
+      "league": "NFL",
+      "home_team": "CIN",
+      "away_team": "NO",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "kickoff_local_hour": 13,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 57.2,
+        "wind_mph": 2.7,
+        "pressure_hpa": 1013.3,
+        "is_dome": false,
+        "elevation_m": 148
+      },
+      "circadian_payload": {
+        "away_travel_miles": 706.4,
+        "away_tz_shift": 1,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.068,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.1,
+          "closing_rank_pct": 0.64,
+          "active_win_streak": 1,
+          "opp_rz_dvoa": -0.08
+        },
+        "away": {
+          "net_epa_per_play": -0.055,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.2,
+          "closing_rank_pct": 0.41,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.05
+        }
+      },
+      "props_board": [
+        {
+          "player": "CIN Spread (-9.5) (CIN vs NO)",
+          "market_type": "spread",
+          "model_win_prob": 0.5012,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -9.5,
+          "base_odds_over": -115,
+          "base_odds_under": -110,
+          "alt_line": -12.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NO Spread (+9.5) (NO @ CIN)",
+          "market_type": "spread",
+          "model_win_prob": 0.4988,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 9.5,
+          "base_odds_over": -105,
+          "base_odds_under": -110,
+          "alt_line": 7.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NO@CIN Total (U 52.5) (NO @ CIN)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.5,
+          "projected_variance_sigma2": 0,
+          "base_line": 52.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
           "alt_line": 57.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "NYG_IND_2026",
+      "league": "NFL",
+      "home_team": "IND",
+      "away_team": "NYG",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "kickoff_local_hour": 13,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 72.0,
+        "wind_mph": 0.0,
+        "pressure_hpa": 1005.6,
+        "is_dome": true,
+        "elevation_m": 218
+      },
+      "circadian_payload": {
+        "away_travel_miles": 640.8,
+        "away_tz_shift": 0,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": -0.01,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.1,
+          "closing_rank_pct": 0.52,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.01
+        },
+        "away": {
+          "net_epa_per_play": -0.088,
+          "qb_replacement_delta": -1.5,
+          "turnover_reg_delta": 0.3,
+          "closing_rank_pct": 0.28,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.09
+        }
+      },
+      "props_board": [
+        {
+          "player": "IND Spread (+4.5) (IND vs NYG)",
+          "market_type": "spread",
+          "model_win_prob": 0.5008,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 4.5,
+          "base_odds_over": -115,
+          "base_odds_under": -110,
+          "alt_line": 2.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NYG Spread (-4.5) (NYG @ IND)",
+          "market_type": "spread",
+          "model_win_prob": 0.4992,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -4.5,
+          "base_odds_over": -105,
+          "base_odds_under": -110,
+          "alt_line": -7.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NYG@IND Total (U 44.5) (NYG @ IND)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.4,
+          "projected_variance_sigma2": 0,
+          "base_line": 44.5,
+          "base_odds_over": -115,
+          "base_odds_under": -105,
+          "alt_line": 49.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "TEN_JAX_2026",
+      "league": "NFL",
+      "home_team": "JAX",
+      "away_team": "TEN",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "kickoff_local_hour": 13,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 63.0,
+        "wind_mph": 11.9,
+        "pressure_hpa": 1026.0,
+        "is_dome": false,
+        "elevation_m": 5
+      },
+      "circadian_payload": {
+        "away_travel_miles": 500.8,
+        "away_tz_shift": 1,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": -0.045,
+          "qb_replacement_delta": -1.5,
+          "turnover_reg_delta": 0.4,
+          "closing_rank_pct": 0.38,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.08
+        },
+        "away": {
+          "net_epa_per_play": -0.09,
+          "qb_replacement_delta": -2.0,
+          "turnover_reg_delta": 0.5,
+          "closing_rank_pct": 0.26,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.12
+        }
+      },
+      "props_board": [
+        {
+          "player": "JAX Spread (-14.5) (JAX vs TEN)",
+          "market_type": "spread",
+          "model_win_prob": 0.5004,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -14.5,
+          "base_odds_over": -105,
+          "base_odds_under": -110,
+          "alt_line": -17.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "TEN Spread (+14.5) (TEN @ JAX)",
+          "market_type": "spread",
+          "model_win_prob": 0.4995,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 14.5,
+          "base_odds_over": -115,
+          "base_odds_under": -110,
+          "alt_line": 12.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "TEN@JAX Total (U 47.5) (TEN @ JAX)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.4,
+          "projected_variance_sigma2": 0,
+          "base_line": 47.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 52.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "NYJ_MIA_2026",
+      "league": "NFL",
+      "home_team": "MIA",
+      "away_team": "NYJ",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "kickoff_local_hour": 13,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 74.9,
+        "wind_mph": 15.0,
+        "pressure_hpa": 1019.6,
+        "is_dome": false,
+        "elevation_m": 3
+      },
+      "circadian_payload": {
+        "away_travel_miles": 1085.5,
+        "away_tz_shift": 0,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.025,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.1,
+          "closing_rank_pct": 0.55,
+          "active_win_streak": 1,
+          "opp_rz_dvoa": -0.03
+        },
+        "away": {
+          "net_epa_per_play": -0.03,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.1,
+          "closing_rank_pct": 0.46,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.02
+        }
+      },
+      "props_board": [
+        {
+          "player": "MIA Spread (+3.0) (MIA vs NYJ)",
+          "market_type": "spread",
+          "model_win_prob": 0.5006,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 3.0,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": 0.5,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NYJ Spread (-3.0) (NYJ @ MIA)",
+          "market_type": "spread",
+          "model_win_prob": 0.4995,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -3.0,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": -5.5,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NYJ@MIA Total (O 41.5) (NYJ @ MIA)",
+          "market_type": "total",
+          "model_win_prob": 0.52,
+          "projected_mean_mu": 42.5,
+          "projected_variance_sigma2": 0,
+          "base_line": 41.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 37.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "NE_LAC_2026",
+      "league": "NFL",
+      "home_team": "LAC",
+      "away_team": "NE",
+      "commence_time": "2026-11-29T21:05:00Z",
+      "kickoff_local_hour": 13,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 72.0,
+        "wind_mph": 0.0,
+        "pressure_hpa": 1011.5,
+        "is_dome": true,
+        "elevation_m": 40
+      },
+      "circadian_payload": {
+        "away_travel_miles": 2589.4,
+        "away_tz_shift": -3,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.048,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.4,
+          "closing_rank_pct": 0.76,
+          "active_win_streak": 3,
+          "opp_rz_dvoa": -0.15
+        },
+        "away": {
+          "net_epa_per_play": -0.095,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.2,
+          "closing_rank_pct": 0.31,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.1
+        }
+      },
+      "props_board": [
+        {
+          "player": "LAC Spread (-5.5) (LAC vs NE)",
+          "market_type": "spread",
+          "model_win_prob": 0.5014,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -5.5,
+          "base_odds_over": -115,
+          "base_odds_under": -110,
+          "alt_line": -8.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NE Spread (+5.5) (NE @ LAC)",
+          "market_type": "spread",
+          "model_win_prob": 0.4986,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 5.5,
+          "base_odds_over": -105,
+          "base_odds_under": -110,
+          "alt_line": 3.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "NE@LAC Total (O 40.5) (NE @ LAC)",
+          "market_type": "total",
+          "model_win_prob": 0.52,
+          "projected_mean_mu": 42.5,
+          "projected_variance_sigma2": 0,
+          "base_line": 40.5,
+          "base_odds_over": 100,
+          "base_odds_under": -120,
+          "alt_line": 36.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "WAS_ARI_2026",
+      "league": "NFL",
+      "home_team": "ARI",
+      "away_team": "WAS",
+      "commence_time": "2026-11-29T21:25:00Z",
+      "kickoff_local_hour": 14,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 72.0,
+        "wind_mph": 0.0,
+        "pressure_hpa": 976.5,
+        "is_dome": true,
+        "elevation_m": 328
+      },
+      "circadian_payload": {
+        "away_travel_miles": 1995.0,
+        "away_tz_shift": -2,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": -0.015,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.1,
+          "closing_rank_pct": 0.48,
+          "active_win_streak": 1,
+          "opp_rz_dvoa": 0.02
+        },
+        "away": {
+          "net_epa_per_play": 0.11,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.3,
+          "closing_rank_pct": 0.805,
+          "active_win_streak": 3,
+          "opp_rz_dvoa": -0.13
+        }
+      },
+      "props_board": [
+        {
+          "player": "ARI Spread (+6.5) (ARI vs WAS)",
+          "market_type": "spread",
+          "model_win_prob": 0.4988,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 6.5,
+          "base_odds_over": -105,
+          "base_odds_under": -110,
+          "alt_line": 4.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "WAS Spread (-6.5) (WAS @ ARI)",
+          "market_type": "spread",
+          "model_win_prob": 0.5012,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -6.5,
+          "base_odds_over": -115,
+          "base_odds_under": -110,
+          "alt_line": -9.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "WAS@ARI Total (O 41.5) (WAS @ ARI)",
+          "market_type": "total",
+          "model_win_prob": 0.52,
+          "projected_mean_mu": 42.6,
+          "projected_variance_sigma2": 0,
+          "base_line": 41.5,
+          "base_odds_over": -115,
+          "base_odds_under": -105,
+          "alt_line": 37.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "SEA_SF_2026",
+      "league": "NFL",
+      "home_team": "SF",
+      "away_team": "SEA",
+      "commence_time": "2026-11-29T21:25:00Z",
+      "kickoff_local_hour": 13,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 58.0,
+        "wind_mph": 2.9,
+        "pressure_hpa": 1019.4,
+        "is_dome": false,
+        "elevation_m": 7
+      },
+      "circadian_payload": {
+        "away_travel_miles": 704.4,
+        "away_tz_shift": 0,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.105,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.1,
+          "closing_rank_pct": 0.79,
+          "active_win_streak": 2,
+          "opp_rz_dvoa": -0.12
+        },
+        "away": {
+          "net_epa_per_play": 0.015,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": 0.2,
+          "closing_rank_pct": 0.56,
+          "active_win_streak": 1,
+          "opp_rz_dvoa": 0.01
+        }
+      },
+      "props_board": [
+        {
+          "player": "SF Spread (-2.5) (SF vs SEA)",
+          "market_type": "spread",
+          "model_win_prob": 0.5009,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -2.5,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": -5.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "SEA Spread (+2.5) (SEA @ SF)",
+          "market_type": "spread",
+          "model_win_prob": 0.4991,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 2.5,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": 0.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "SEA@SF Total (U 46.5) (SEA @ SF)",
+          "market_type": "total",
+          "model_win_prob": 0.68,
+          "projected_mean_mu": 42.6,
+          "projected_variance_sigma2": 0,
+          "base_line": 46.5,
+          "base_odds_over": 100,
+          "base_odds_under": -120,
+          "alt_line": 51.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "LV_CLE_2026",
+      "league": "NFL",
+      "home_team": "CLE",
+      "away_team": "LV",
+      "commence_time": "2026-11-30T01:20:00Z",
+      "kickoff_local_hour": 20,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 53.3,
+        "wind_mph": 4.1,
+        "pressure_hpa": 1009.6,
+        "is_dome": false,
+        "elevation_m": 177
+      },
+      "circadian_payload": {
+        "away_travel_miles": 1829.5,
+        "away_tz_shift": 3,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": -0.075,
+          "qb_replacement_delta": -3.0,
+          "turnover_reg_delta": 0.4,
+          "closing_rank_pct": 0.35,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.09
+        },
+        "away": {
+          "net_epa_per_play": -0.085,
+          "qb_replacement_delta": -2.0,
+          "turnover_reg_delta": 0.5,
+          "closing_rank_pct": 0.29,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.11
+        }
+      },
+      "props_board": [
+        {
+          "player": "CLE Spread (-4.5) (CLE vs LV)",
+          "market_type": "spread",
+          "model_win_prob": 0.5001,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -4.5,
+          "base_odds_over": -105,
+          "base_odds_under": -110,
+          "alt_line": -7.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "LV Spread (+4.5) (LV @ CLE)",
+          "market_type": "spread",
+          "model_win_prob": 0.4999,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 4.5,
+          "base_odds_over": -115,
+          "base_odds_under": -110,
+          "alt_line": 2.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "LV@CLE Total (O 41.5) (LV @ CLE)",
+          "market_type": "total",
+          "model_win_prob": 0.52,
+          "projected_mean_mu": 42.3,
+          "projected_variance_sigma2": 0,
+          "base_line": 41.5,
+          "base_odds_over": -105,
+          "base_odds_under": -115,
+          "alt_line": 37.0,
+          "alt_odds_over": -165
+        }
+      ]
+    },
+    {
+      "game_id": "CAR_TB_2026",
+      "league": "NFL",
+      "home_team": "TB",
+      "away_team": "CAR",
+      "commence_time": "2026-12-01T01:15:00Z",
+      "kickoff_local_hour": 20,
+      "expected_plays": 126,
+      "environmental_payload": {
+        "temperature_f": 65.9,
+        "wind_mph": 10.1,
+        "pressure_hpa": 1020.7,
+        "is_dome": false,
+        "elevation_m": 12
+      },
+      "circadian_payload": {
+        "away_travel_miles": 510.2,
+        "away_tz_shift": 0,
+        "rest_differential_days": 0,
+        "short_week_flag": 0
+      },
+      "team_telemetry": {
+        "home": {
+          "net_epa_per_play": 0.085,
+          "qb_replacement_delta": 0.0,
+          "turnover_reg_delta": -0.4,
+          "closing_rank_pct": 0.812,
+          "active_win_streak": 2,
+          "opp_rz_dvoa": -0.12
+        },
+        "away": {
+          "net_epa_per_play": -0.11,
+          "qb_replacement_delta": -2.5,
+          "turnover_reg_delta": 0.6,
+          "closing_rank_pct": 0.22,
+          "active_win_streak": 0,
+          "opp_rz_dvoa": 0.14
+        }
+      },
+      "props_board": [
+        {
+          "player": "CAR Spread (+1.5) (CAR @ TB)",
+          "market_type": "spread",
+          "model_win_prob": 0.498,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": 1.5,
+          "base_odds_over": 100,
+          "base_odds_under": -110,
+          "alt_line": -1.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "TB Spread (-1.5) (TB vs CAR)",
+          "market_type": "spread",
+          "model_win_prob": 0.502,
+          "projected_mean_mu": 0,
+          "projected_variance_sigma2": 0,
+          "base_line": -1.5,
+          "base_odds_over": -120,
+          "base_odds_under": -110,
+          "alt_line": -4.0,
+          "alt_odds_over": -165
+        },
+        {
+          "player": "CAR@TB Total (U 43.5) (CAR @ TB)",
+          "market_type": "total",
+          "model_win_prob": 0.52,
+          "projected_mean_mu": 42.5,
+          "projected_variance_sigma2": 0,
+          "base_line": 43.5,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
+          "alt_line": 48.0,
           "alt_odds_over": -165
         }
       ]
