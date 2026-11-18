@@ -2,7 +2,7 @@
   "slate_info": {
     "league": "NFL",
     "week": 10,
-    "last_updated": "2026-11-18T04:46:50Z"
+    "last_updated": "2026-11-18T08:47:16Z"
   },
   "games": [
     {
@@ -76,8 +76,8 @@
           "projected_mean_mu": 42.5,
           "projected_variance_sigma2": 0,
           "base_line": 44.5,
-          "base_odds_over": -110,
-          "base_odds_under": -110,
+          "base_odds_over": -115,
+          "base_odds_under": -105,
           "alt_line": 49.0,
           "alt_odds_over": -165
         }
@@ -778,8 +778,8 @@
           "projected_mean_mu": 42.5,
           "projected_variance_sigma2": 0,
           "base_line": 40.5,
-          "base_odds_over": -105,
-          "base_odds_under": -115,
+          "base_odds_over": -110,
+          "base_odds_under": -110,
           "alt_line": 36.0,
           "alt_odds_over": -165
         }
